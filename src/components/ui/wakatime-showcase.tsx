@@ -41,7 +41,12 @@ export const WakaTimeShowcase = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if (!mounted) return null;
+    if (!mounted) return null;
+
+    // No API key configured (or fetch failed) → hide the section instead of
+    // showing a misleading "live stream" of dashes. It reappears automatically
+    // once WAKATIME_API_KEY is set and data loads.
+    if (!loading && !data) return null;
 
   const stats = [
     { label: "Total This Week", value: loading ? "..." : (data?.totalThisWeek || "—") },

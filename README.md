@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="public/dipc-light.svg" alt="Project Logo" width="80" height="80" />
+<img src="public/dipc-light.svg" alt="DIPC Logo" width="80" height="80" />
 
 # DIPC — Digital India Promotion Company
 
 ### Company website — Next.js, TypeScript, 3D & motion
-
-> Built on [Aryan170911/PersonalBlog](https://github.com/Aryan170911/PersonalBlog) (template, MIT) — itself forked from [Arfazrll/PersonalBlog](https://github.com/Arfazrll/PersonalBlog).
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.1.6-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
@@ -24,62 +22,65 @@
 ![GitHub stars](https://img.shields.io/github/stars/Aryan170911/dipc?style=flat-square&color=f59e0b)
 ![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
 
+> Built on [Aryan170911/PersonalBlog](https://github.com/Aryan170911/PersonalBlog) (template, MIT) — itself forked from [Arfazrll/PersonalBlog](https://github.com/Arfazrll/PersonalBlog).
+
 </div>
 
 ---
 
 ## Executive Summary
 
-A production-grade, highly interactive portfolio application engineered to showcase technical expertise across Artificial Intelligence, Data Science, and Modern Software Engineering. Moving beyond traditional static documentation, this platform delivers an immersive, high-performance user experience powered by WebGL physics simulations, real-time data integrations, and an autonomous AI chatbot assistant.
+The company website of **Digital India Promotion Company (DIPC)** — an AI solutions company selling websites, AI chatbots and business automation to Indian enterprises. A production-grade, highly interactive Next.js application with 3D visuals, scroll motion, bilingual English/Hindi content, live GitHub stats, and an AI sales assistant that answers from the company data.
 
 ---
 
 ## System Architecture & Technologies
 
-The repository is built on a modern, decoupled architecture designed for maximal performance, scalability, and maintainability.
-
 ### Core Framework
-- **Next.js 16 (App Router):** Leverages server-side rendering (SSR), static site generation (SSG), and advanced caching mechanisms for optimal content delivery.
-- **React 19 & TypeScript:** Enforces strict type safety and modern reactive paradigms across 50+ custom UI components.
+- **Next.js 16 (App Router):** Server-side rendering (SSR), static site generation (SSG), and API routes for chatbot, contact, GitHub, Kaggle and WakaTime endpoints.
+- **React 19 & TypeScript:** Strict type safety across 50+ custom UI components.
 
-### 3D Graphics & Physics Simulation
-- **Three.js & React Three Fiber (R3F):** Powers the core WebGL rendering engine.
-- **Rapier Physics:** Integrates real-time, deterministic physics simulations (e.g., interactive 3D Lanyard and structural models).
-- **Custom GLSL Shaders:** Utilized for bespoke background elements, including the Hyperspeed and warp effects.
-
-### UI/UX Choreography
-- **Framer Motion & GSAP:** Drives complex, timeline-based choreographies, micro-interactions, and fluid page transitions.
-- **Tailwind CSS & Shadcn UI:** Provides a scalable, utility-first design system utilizing robust Radix UI accessibility primitives.
-- **Lenis:** Implements smooth, premium scrolling dynamics.
+### 3D Graphics & Motion
+- **Three.js & React Three Fiber (R3F):** WebGL rendering (interactive 3D badge, backgrounds).
+- **Framer Motion & GSAP:** Scroll choreography, micro-interactions and page transitions.
+- **Tailwind CSS & Shadcn UI:** Utility-first design system on Radix UI primitives.
+- **Lenis:** Smooth, premium scrolling dynamics.
 
 ### System Integrations & APIs
-- **Dual-LLM AI Chatbot Architecture:** Integrates Groq (LLaMA 3.1) as the primary provider with an automatic failover to Google Gemini (1.5 Flash), utilizing retrieval-augmented generation context mapped directly from `portfolio.ts`.
-- **GraphQL & REST Pipelines:** Consumes GitHub GraphQL for repository statistics and WakaTime API for real-time code telemetry.
-- **Next-Intl:** Provides a complete bilingual experience (EN/ID) driven by client-side browser header detection.
+- **AI Sales Chatbot:** `/api/chat` builds its context from `portfolio.ts` and answers via Groq (LLaMA) with automatic failover to Google Gemini. Needs `GROQ_API_KEY` (and optionally `GEMINI_API_KEY`); without keys the chat UI is inert.
+- **GitHub REST:** Repository statistics, contribution calendar and language breakdown for `NEXT_PUBLIC_GITHUB_USERNAME`. A `GITHUB_TOKEN` raises API rate limits.
+- **WakaTime (optional):** Coding-activity cards via `WAKATIME_API_KEY`. Without a key the WakaTime section hides itself instead of showing empty metrics.
+- **Kaggle (optional):** Stats via `KAGGLE_USERNAME` / `KAGGLE_API_TOKEN`.
+- **Contact form:** Nodemailer over Gmail SMTP using `EMAIL_USER` + `EMAIL_APP_PASSWORD`.
+- **Next-Intl:** Bilingual experience — English (`messages/en.json`) and Hindi (`messages/id.json` locale file).
 
 ---
 
 ## Project Structure
 
 ```text
-PersonalBlog/
+dipc/
 ├── src/
 │   ├── app/                          # Next.js 16 App Router Entry Points
-│   │   ├── api/                      # Backend API Routes (Chatbot, GitHub, WakaTime)
-│   │   ├── projects/                 # Comprehensive Project Directory
-│   │   ├── experience/               # Career Timeline and Analytics
-│   │   ├── skills/                   # Technical Skill Radar
-│   │   ├── resume/                   # Custom PDF Rendering Engine (react-pdf)
-│   │   └── blog/                     # MDX/Markdown Article Renderer
+│   │   ├── api/                      # Backend API Routes (chat, contact, github, kaggle, wakatime)
+│   │   ├── projects/                 # Services & case-study directory
+│   │   ├── experience/               # Company timeline
+│   │   ├── skills/                   # Capabilities & tech stack
+│   │   ├── achievements/             # Company credentials
+│   │   ├── blog/                     # Article renderer (data-driven)
+│   │   ├── gallery/                  # Visual archive
+│   │   └── contact/                  # Quote form + company FAQs
 │   ├── components/
-│   │   ├── three/                    # WebGL & R3F Components (Lanyard, Splash)
+│   │   ├── three/                    # WebGL & R3F Components
 │   │   ├── sections/                 # Primary Page Layout Structures
 │   │   └── ui/                       # 50+ Custom Shadcn & Animated Primitives
 │   ├── data/
-│   │   └── portfolio.ts              # Centralized JSON/TS Data Store
-│   ├── hooks/                        # Custom React Hooks (Performance, Intersection)
+│   │   └── portfolio.ts              # Centralized Company Data Store
+│   ├── hooks/                        # Custom React Hooks (Performance, CountUp, ...)
+│   ├── i18n/                         # Locale settings (en + id/Hindi)
 │   └── styles/                       # Global CSS & Tailwind Directives
-├── public/                           # Static Assets (Images, 3D Models, PDFs)
+├── messages/                         # en.json (English) + id.json (Hindi copy)
+├── public/                           # Static Assets (DIPC logo, project visuals, 3D models)
 ├── next.config.ts                    # Next.js Optimization Configuration
 └── tailwind.config.ts                # Custom Design System Configurations
 ```
@@ -88,20 +89,34 @@ PersonalBlog/
 
 ## Key Features
 
-### 1. Interactive 3D Environments
-Implements hardware-accelerated 3D models using `@react-three/drei` and `@react-three/fiber`. Features include a physics-simulated identification badge that responds to cursor velocity and window constraints in real time.
+### 1. Interactive 3D & Motion Design
+Hardware-accelerated 3D badge, scroll-linked reveals, parallax galleries, magnetic buttons, animated counters and bilingual (EN/HI) UI with a language toggle.
 
-### 2. Autonomous Portfolio Chatbot
-An intelligent conversational agent deployed via the `/api/chat` route. The system builds a dynamic context window from the static `portfolio.ts` database and processes natural language queries using a redundant Dual-LLM infrastructure.
+### 2. AI Sales Chatbot
+A conversational assistant deployed via `/api/chat`. It builds its context window from the company data in `portfolio.ts`, so updating services, projects or FAQs automatically updates what the bot knows — no separate training step.
 
-### 3. Real-Time Telemetry
-Dashboards across the platform retrieve and display real-time engineering metrics, utilizing authenticated GraphQL requests to GitHub (activity heatmaps, language breakdown) and WakaTime (coding hours, IDE preferences).
+### 3. Live Company Stats
+The homepage **CompanyStats** band counts up real company numbers (services, deliveries, industries, response promise). GitHub cards show live repository activity when `GITHUB_TOKEN` is configured.
 
-### 4. Interactive PDF Document Viewer
-A custom-built document rendering engine utilizing `react-pdf`, allowing users to zoom, rotate, search, and download the resume natively within the browser application without relying on external plugins.
+### 4. Company Profile Page
+The `/profile` route (linked as “Profile” in navigation) is a placeholder announcing the forthcoming company-profile document, with links to work and contact. Drop the final PDF in and wire the viewer when ready.
 
 ### 5. Performance Diagnostics
-The application implements a `usePerformance` hook to evaluate client hardware capabilities in real time, automatically disabling intensive WebGL shaders and complex GSAP animations on low-power or mobile devices to preserve battery life and maintain stable framerates.
+The `usePerformance` hook evaluates client hardware in real time, disabling intensive WebGL shaders and complex animations on low-power or mobile devices to preserve battery life and framerates.
+
+---
+
+## Customizing Company Content
+
+All editable business content lives in three places — no other files need touching for routine updates:
+
+| What to change | Where |
+|---|---|
+| Identity, services, timeline, skills, FAQs, blog posts, gallery | `src/data/portfolio.ts` (sections: `personal`, `projects`, `experiences`, `hardSkills`, `faqs`, `blogs`, `gallery`) |
+| Every English string on screen | `messages/en.json` (18 namespaces: `hero`, `about`, `ctaSection`, …) |
+| Every Hindi string on screen | `messages/id.json` (same shape as `en.json`; keep keys in sync) |
+| Homepage numbers band | `CompanyStats` `STATS` array in `src/components/sections/CompanyStats.tsx` |
+| Logo / project visuals | `public/dipc-light.svg`, `public/dipc-dark.svg`, `public/project/` |
 
 ---
 
@@ -128,18 +143,24 @@ The application implements a `usePerformance` hook to evaluate client hardware c
    Create a `.env.local` file in the root directory.
 
    ```env
-   NEXT_PUBLIC_GITHUB_USERNAME=your_username
-   GITHUB_TOKEN=your_personal_access_token
-   WAKATIME_API_KEY=your_wakatime_key
-   GROQ_API_KEY=your_groq_key
-   GEMINI_API_KEY=your_gemini_key
+   # Required for live GitHub stats + showcase identity
+   NEXT_PUBLIC_GITHUB_USERNAME=Aryan170911
+   # Optional integrations (features stay hidden/inert without them)
+   GITHUB_TOKEN=
+   WAKATIME_API_KEY=
+   GROQ_API_KEY=
+   GEMINI_API_KEY=
+   KAGGLE_USERNAME=
+   KAGGLE_API_TOKEN=
+   EMAIL_USER=
+   EMAIL_APP_PASSWORD=
    ```
 
 4. **Initialize Development Server:**
    ```bash
    npm run dev
    ```
-   Navigate to `http://localhost:3000` to interact with the application.
+   Navigate to `http://localhost:3000` to interact with the application. The language toggle (EN/HI) is in the navigation.
 
 ### Production Build
 Execute the following to compile and serve the optimized application bundle:
@@ -147,6 +168,7 @@ Execute the following to compile and serve the optimized application bundle:
 npm run build
 npm start
 ```
+Deployment target: **Vercel** (import the repo, add the env vars above, attach the `dipc.site` domain).
 
 ---
 
