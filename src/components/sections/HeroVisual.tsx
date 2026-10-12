@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Separator } from "@/components/ui/separator";
-import { Github, Linkedin, Instagram, ArrowDown, ArrowDownRight, Bot, Zap, ExternalLink, MessageSquare } from 'lucide-react';
+import { Github, ArrowDown, ArrowDownRight, Bot, Zap, ExternalLink, MessageSquare } from 'lucide-react';
 import { portfolioData } from "@/data/portfolio";
 import { cn } from "@/lib/utils";
 import Link from 'next/link';
@@ -21,8 +21,6 @@ export function HeroVisual({ isExiting = false }: { isExiting?: boolean }) {
   });
 
   const githubRef = useRef(null);
-  const linkedinRef = useRef(null);
-  const instagramRef = useRef(null);
   const zapRef = useRef(null);
   const zapSmallRef = useRef(null);
   const botRef = useRef(null);
@@ -43,50 +41,6 @@ export function HeroVisual({ isExiting = false }: { isExiting?: boolean }) {
             gsap.to(githubRef.current, {
               y: -10,
               duration: 2,
-              repeat: -1,
-              yoyo: true,
-              ease: "sine.inOut",
-              force3D: true
-            });
-          }
-        }
-      );
-
-      // Reveal + Loop for LinkedIn
-      gsap.fromTo(linkedinRef.current,
-        { opacity: 0, y: 40 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 1,
-          delay: 0.1,
-          ease: "power3.out",
-          onComplete: () => {
-            gsap.to(linkedinRef.current, {
-              y: 10,
-              duration: 2.5,
-              repeat: -1,
-              yoyo: true,
-              ease: "sine.inOut",
-              force3D: true
-            });
-          }
-        }
-      );
-
-      // Reveal + Loop for Instagram
-      gsap.fromTo(instagramRef.current,
-        { opacity: 0, y: 40 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 1,
-          delay: 0.2,
-          ease: "power3.out",
-          onComplete: () => {
-            gsap.to(instagramRef.current, {
-              x: 10,
-              duration: 3,
               repeat: -1,
               yoyo: true,
               ease: "sine.inOut",
@@ -202,24 +156,6 @@ export function HeroVisual({ isExiting = false }: { isExiting?: boolean }) {
           {/* Line 2: SOFT [ICON] WARE */}
           <div className="md:flex gap-8 items-center relative">
             <div className="relative">
-              <div ref={linkedinRef} className="absolute -top-8 left-4 text-primary/60 hover:text-primary z-20 opacity-0">
-                <a
-                  href={personal.socialLinks.find(s => s.platform === 'LinkedIn')?.url}
-                  target="_blank"
-                  className="block"
-                >
-                  <Linkedin size={32} />
-                </a>
-              </div>
-              <div ref={instagramRef} className="absolute -bottom-12 right-24 md:right-36 text-primary/60 hover:text-primary z-20 opacity-0">
-                <a
-                  href={personal.socialLinks.find(s => s.platform === 'Instagram')?.url}
-                  target="_blank"
-                  className="block"
-                >
-                  <Instagram size={32} />
-                </a>
-              </div>
               <motion.h1
                 initial={{ opacity: 0, y: 30 }}
                 animate={isExiting ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
@@ -252,7 +188,7 @@ export function HeroVisual({ isExiting = false }: { isExiting?: boolean }) {
             </div>
           </div>
 
-          {/* Line 3: EN [ICON] GINEER */}
+          {/* Line 3: STU [ICON] DIO */}
           <div className="md:flex gap-8 items-center relative">
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
@@ -260,7 +196,7 @@ export function HeroVisual({ isExiting = false }: { isExiting?: boolean }) {
               transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="text-[clamp(3rem,11vw,13rem)] md:flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
             >
-              <span className="">EN</span>
+              <span className="">STU</span>
               <div
                 ref={botRef}
                 className="mx-[0.05em] relative cursor-pointer group"
@@ -276,7 +212,7 @@ export function HeroVisual({ isExiting = false }: { isExiting?: boolean }) {
               >
                 <Bot className="w-[0.85em] h-[0.85em] text-yellow-500 fill-yellow-500/10 group-hover:text-yellow-400 group-hover:fill-yellow-400/20 transition-colors" />
               </div>
-              <span className="">GINEER</span>
+              <span className="">DIO</span>
             </motion.h1>
 
             <motion.p
