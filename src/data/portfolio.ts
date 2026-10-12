@@ -8,7 +8,8 @@ export const portfolioData: PortfolioData = {
         bio: 'Digital India Promotion Company (DIPC) builds websites, AI chatbots and business automation for Indian enterprises and institutions. This site documents our services, projects and journey.',
         avatar: '/about/arfazrll.webp',
         location: 'India',
-        email: '',
+        email: 'admin@dipc.site',
+        phone: '+917091241322',
         resumeUrl: '/resume',
         website: 'https://github.com/Aryan170911/dipc',
         languages: [
