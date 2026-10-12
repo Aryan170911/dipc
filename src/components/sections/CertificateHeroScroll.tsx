@@ -37,16 +37,9 @@ interface CertificateHeroScrollProps {
 }
 
 const CERTIFICATE_POOL = [
-    "Data Analytics on Google Cloud.webp",
-    "Deep Learning Beginner.webp",
-    "Docker, Kubernetes dan DevOps.webp",
-    "Fullstack Programming Untuk Pemula.webp",
-    "Introduction to Generative AI.webp",
-    "Machine Learning Foundations.webp",
-    "Mastering Smart Contract.webp",
-    "Started with Databases.webp",
-    "Supervised Machine Learning Regression and Classification.webp",
-    "elevAIte with Dicoding Program 2025.webp"
+    "/project/mathrubhumi-hero.webp",
+    "/dipc-light.svg",
+    "/dipc-dark.svg"
 ];
 
 const CertificateHeroScroll: FC<CertificateHeroScrollProps> = ({ onDownloadClick, isLowPowerMode: isLowPowerModeProp }) => {
@@ -61,9 +54,9 @@ const CertificateHeroScroll: FC<CertificateHeroScrollProps> = ({ onDownloadClick
     const [randomCertificates, setRandomCertificates] = useState<ImageItem[]>([]);
 
     const createCertItem = useCallback((filename: string): ImageItem => ({
-        id: filename.replace(/\s+/g, '-').toLowerCase(),
-        src: `/certificate/${filename}`,
-        alt: filename.replace(/\.(pdf|jpg|jpeg|png|webp)$/i, ''),
+        id: filename.replace(/[^a-z0-9]+/gi, '-').toLowerCase(),
+        src: `${filename}`,
+        alt: filename.split('/').pop()?.replace(/\.(pdf|jpg|jpeg|png|webp|svg)$/i, '') ?? 'DIPC',
         isPdf: /\.pdf$/i.test(filename)
     }), []);
 
