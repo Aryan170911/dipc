@@ -67,8 +67,8 @@ export const metadata: Metadata = {
     },
     icons: {
         icon: [
-            { url: '/Arfazrll_light.svg', media: '(prefers-color-scheme: light)' },
-            { url: '/Arfazrll_dark.svg', media: '(prefers-color-scheme: dark)' },
+            { url: '/dipc-light.svg', media: '(prefers-color-scheme: light)' },
+            { url: '/dipc-dark.svg', media: '(prefers-color-scheme: dark)' },
         ],
     },
 };

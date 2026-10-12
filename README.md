@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/Arfazrll_light.svg" alt="Project Logo" width="80" height="80" />
+<img src="public/dipc-light.svg" alt="Project Logo" width="80" height="80" />
 
 # DIPC — Digital India Promotion Company
 
