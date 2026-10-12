@@ -39,11 +39,11 @@ export const metadata: Metadata = {
     keywords: ['digital india', 'web development', 'ecommerce', 'company', 'react', 'nextjs'],
     authors: [{ name: 'DIPC' }],
     creator: 'DIPC',
-    metadataBase: new URL('https://your-domain.com'),
+    metadataBase: new URL('https://dipc.site'),
     openGraph: {
         type: 'website',
         locale: 'en_US',
-        url: 'https://your-domain.com',
+        url: 'https://dipc.site',
         title: 'DIPC | Digital India Promotion Company',
         description: 'Web stores, digital services and promotional platforms for Indian enterprises.',
         siteName: 'DIPC',

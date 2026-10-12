@@ -318,8 +318,8 @@ export const portfolioData: PortfolioData = {
                 'Set the house rules: fixed quotes first, preview links during build, client owns everything.'
             ],
             skills: ['Web Development', 'Business Planning'],
-            startDate: '2024-01-01',
-            endDate: '2024-06-30',
+            startDate: '2026-04-01',
+            endDate: '2026-04-30',
             isOngoing: false,
             location: 'India',
             type: 'self-employed',
@@ -338,8 +338,8 @@ export const portfolioData: PortfolioData = {
                 'Set up product catalog, ordering flow and contact capture.'
             ],
             skills: ['E-commerce', 'Web Design', 'Lead Capture'],
-            startDate: '2024-07-01',
-            endDate: '2025-03-31',
+            startDate: '2026-05-01',
+            endDate: '2026-07-31',
             isOngoing: false,
             location: 'India',
             type: 'self-employed',
@@ -359,7 +359,7 @@ export const portfolioData: PortfolioData = {
                 'Launched automation audits: map the office workflow, automate one process at a time.'
             ],
             skills: ['Conversational AI', 'Chat Platforms', 'Workflow Automation'],
-            startDate: '2025-04-01',
+            startDate: '2026-08-01',
             endDate: '2026-09-30',
             isOngoing: false,
             location: 'India',

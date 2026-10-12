@@ -38,7 +38,7 @@ const showcaseMembers = [
         name: "DIPC Founded",
         role: exp.position.replace(' (Contract-Based)', ''),
         description: exp.description,
-        period: "2024",
+        period: "April 2026",
         image: "/dipc-light.svg",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
@@ -48,7 +48,7 @@ const showcaseMembers = [
         name: "First Client Work",
         role: exp.position,
         description: exp.description,
-        period: "2024 - 2025",
+        period: "May - Jul 2026",
         image: "/dipc-light.svg",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
@@ -58,7 +58,7 @@ const showcaseMembers = [
         name: exp.company,
         role: exp.position.replace(' (Contract-Based)', ''),
         description: exp.description,
-        period: "2025 - 2026",
+        period: "Aug - Sep 2026",
         image: "/dipc-light.svg",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
