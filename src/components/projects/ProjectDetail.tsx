@@ -483,7 +483,7 @@ export function ProjectDetail({ project, onClose, isLowPowerMode }: { project: P
                                                     <Typewriter examples={[
                                                         "Check out the repo on GitHub...",
                                                         "Open an issue for features...",
-                                                        "Contact me for collaboration..."
+                                                        "Contact us for your project..."
                                                     ]} />
                                                 </div>
                                             </div>

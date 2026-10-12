@@ -496,7 +496,7 @@
         "title": "AI सहायक",
         "subtitle": "DIPC के बारे में पूछें",
         "placeholder": "संदेश लिखें...",
-        "greeting": "नमस्ते! मैं DIPC assistant हूँ। 👋\n\nमैं इन बारे में बता सकता हूँ:\n- Services और pricing\n- Projects और कार्य\n- Company journey\n- Support और care plans\n\nआप क्या जानना चाहेंगे?",
+        "greeting": "नमस्ते! यह DIPC assistant है। 👋\n\nहम इन बारे में बता सकते हैं:\n- Services और pricing\n- Projects और कार्य\n- Company journey\n- Support और care plans\n\nआप क्या जानना चाहेंगे?",
         "suggestions": [
             "आपकी services क्या हैं?",
             "Mathrubhumi project के बारे में बताइए",

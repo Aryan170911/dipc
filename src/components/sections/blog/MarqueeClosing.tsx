@@ -106,7 +106,7 @@ export const MarqueeClosing = ({ isLowPowerMode: parentLowPowerMode }: { isLowPo
                         "text-xl md:text-2xl font-light leading-relaxed max-w-2xl drop-shadow-md pb-2",
                         isDark ? "text-white/70" : "text-muted-foreground font-medium"
                     )}>
-                        I'm always open to discussing website, chatbot or automation work. Tell us the job — we reply with a fixed quote.
+                        We're always open to discussing website, chatbot or automation work. Tell us the job — we reply with a fixed quote.
                     </p>
 
                     {/* Action Area: Newsletter & Navigation */}

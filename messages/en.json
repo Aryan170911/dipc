@@ -320,7 +320,7 @@
             "email": "Your Email",
             "subject": "Subject",
             "message": "Your Message",
-            "messagePlaceholder": "Tell me about your project...",
+            "messagePlaceholder": "Tell us about your project...",
             "send": "Send Message",
             "submit": "SEND MESSAGE",
             "sending": "SENDING...",
@@ -510,7 +510,7 @@
         "title": "AI Assistant",
         "subtitle": "Ask about DIPC",
         "placeholder": "Type a message...",
-        "greeting": "Hi! I am the DIPC assistant. 👋\n\nI can answer questions about:\n- Services and pricing\n- Projects and work\n- Company journey\n- Support and care plans\n\nWhat would you like to know?",
+        "greeting": "Hi! This is the DIPC assistant. 👋\n\nWe can tell you about:\n- Services and pricing\n- Projects and work\n- Company journey\n- Support and care plans\n\nWhat would you like to know?",
         "suggestions": [
             "What services do you offer?",
             "Tell me about the Mathrubhumi project",
