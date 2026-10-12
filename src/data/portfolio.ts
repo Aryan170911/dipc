@@ -3,9 +3,9 @@ import { PortfolioData } from '@/types';
 export const portfolioData: PortfolioData = {
     personal: {
         name: 'Digital India Promotion Company',
-        title: 'Digital Services Company',
-        subtitle: 'DIPC • Web stores, digital services and promotional platforms',
-        bio: 'Digital India Promotion Company (DIPC) builds web stores, digital services and promotional platforms for Indian enterprises and institutions — including demo commerce work for Krishi Sewa Foundation. This site documents our projects, services and journey.',
+        title: 'AI Solutions Company',
+        subtitle: 'DIPC • Websites, AI chatbots & business automation',
+        bio: 'Digital India Promotion Company (DIPC) builds websites, AI chatbots and business automation for Indian enterprises and institutions. This site documents our services, projects and journey.',
         avatar: '/about/arfazrll.webp',
         location: 'India',
         email: '',
