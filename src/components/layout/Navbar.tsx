@@ -327,7 +327,7 @@ export function Navbar() {
                                         onClick={toggleLocale}
                                         className="px-6 py-3 rounded-full glass-card text-sm font-medium hover:bg-muted/50 transition-colors"
                                     >
-                                        {currentLocale === 'en' ? 'English' : 'Indonesia'}
+                                        {currentLocale === 'en' ? 'English' : 'हिन्दी'}
                                     </button>
                                     {mounted && (
                                         <AnimatedThemeToggler

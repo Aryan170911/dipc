@@ -11,30 +11,30 @@ export const ParallaxScrollFeatureSection = () => {
     const sections = [
         {
             id: 1,
-            title: "Intelligence Systems",
-            subtitle: "AI & DATA SCIENCE",
-            description: "Specializing in architecting autonomous systems and intelligence-driven platforms. From fine-tuning LLMs and engineering RAG architectures to developing deep learning models for Computer Vision and NLP.",
-            imageUrl: '/feature/feature1.webp',
+            title: "Chatbot Systems",
+            subtitle: "AI SOLUTIONS",
+            description: "Chatbots trained on client content that answer instantly, capture leads and hand over to humans — on websites, WhatsApp and Telegram.",
+            imageUrl: '/project/mathrubhumi-hero.webp',
             reverse: false,
-            skills: ["LLM Fine-tuning", "RAG Systems", "Deep Learning", "Computer Vision", "MLOps", "Data Analytics"]
+            skills: ["Lead Capture", "Human Handover", "WhatsApp Bots", "24x7 Support", "Content Training", "Hindi + English"]
         },
         {
             id: 2,
-            title: "Scalable Systems",
-            subtitle: "SOFTWARE DEVELOPMENT",
-            description: "Building the foundation for resilient digital ecosystems. I engineer full-stack solutions with a focus on system architecture, modular design, and high-performance backends using Go, Next.js, and Python.",
-            imageUrl: '/feature/feature2.webp',
+            title: "Business Websites",
+            subtitle: "WEB DEVELOPMENT",
+            description: "Fast, mobile-first business sites with lead capture built in — from landing pages to complete online stores.",
+            imageUrl: '/dipc-light.svg',
             reverse: true,
-            skills: ["System Architecture", "Full-Stack Dev", "Docker & K8s", "API Design", "DevOps", "Software Design"]
+            skills: ["Next.js", "Lead Forms", "SEO Basics", "Mobile-First", "Fast Loading", "Handover Training"]
         },
         {
             id: 3,
-            title: "Strategic Innovation",
-            subtitle: "SOFT SKILLS & LEADERSHIP",
-            description: "Translating complex technical requirements into impactful business solutions through systemic thinking, strategic leadership, and clear communication within cross-functional teams.",
-            imageUrl: '/feature/feature3.webp',
+            title: "Office Automation",
+            subtitle: "AUTOMATION",
+            description: "Follow-ups, reminders, data sync and reports running inside the tools teams already use.",
+            imageUrl: '/dipc-dark.svg',
             reverse: false,
-            skills: ["Systemic Thinking", "Leadership", "Problem Solving", "Teamwork", "Communication", "Research"]
+            skills: ["Follow-ups", "Reminders", "Reports", "App Integrations", "Manual Override", "Care Plans"]
         }
     ]
 

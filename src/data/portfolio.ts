@@ -638,13 +638,13 @@ export const portfolioData: PortfolioData = {
         {
             id: 'blog-10',
             slug: 'the-architects-manifesto',
-            title: "Digital Garden: The Architect's Manifesto",
-            excerpt: "Reflecting on my journey as an AI Engineer and the philosophy behind building intelligent, scalable systems.",
-            content: "My journey into the world of technology hasn't been just about code...",
+            title: "The DIPC Playbook: Notes on Useful Software",
+            excerpt: "How DIPC thinks about building useful business systems — websites, chatbots and automations that pay for themselves.",
+            content: "Our journey is about making technology useful for Indian businesses — practical systems, fixed quotes and human support.",
             image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2000&auto=format&fit=crop&fm=webp',
             date: '2026-03-31',
             category: 'about-me',
-            tags: ['Philosophy', 'Engineering', 'About Me'],
+            tags: ['Philosophy', 'Engineering', 'About DIPC'],
             author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
             readTime: '5'
         }

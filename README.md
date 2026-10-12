@@ -152,14 +152,14 @@ npm start
 
 ## Project Showcase Overview
 
-The platform currently documents **19 technical projects** spanning multiple engineering disciplines:
+The platform documents **our services and client work**:
 
-| Discipline | Notable Projects | Core Technologies |
-|------------|------------------|-------------------|
-| **Artificial Intelligence** | DocsInsight Engine, NeuroVision, Hand Gesture Recognition | Python, TensorFlow, OpenCV, LangChain |
-| **Data Science & Analytics** | Credit Risk Analysis, MyTelkomsel Sentiment, Data Analyst Dashboard | Python, LSTM, Pandas, Plotly |
-| **Software Engineering** | Donasiaku, POLABDC SaaS, Digilibzx | Laravel, Next.js, Go, PostgreSQL, Prisma |
-| **IoT & Embedded Systems** | TerraFlow Platform, Smart Motion Detection | ESP32, Raspberry Pi, MQTT, C++ |
+| Offering | Highlights | Core Technologies |
+|------------|------------|-------------------|
+| **Websites & Web Apps** | Business sites, online stores, lead capture | Next.js, React, Tailwind CSS, Node.js |
+| **AI Chatbots & Assistants** | Website chat, lead capture, human handover | Python, LangChain, OpenAI |
+| **Chat Platform Bots** | WhatsApp & Telegram ordering, support, broadcasts | Node.js, WhatsApp Business API, Telegram Bot API |
+| **Business Automation** | Follow-ups, reminders, reports, app integrations | Python, REST APIs, PostgreSQL |
 
 ---
 

@@ -46,7 +46,7 @@ const highlightContent = {
     journey: {
         title: "Crafting Experiences",
         highlight: "That Matter",
-        description: "From internships to leadership roles, each step has been a lesson in collaboration, innovation, and pushing boundaries."
+        description: "From first client to flagship deliveries, each step has been a lesson: keep working for customers with fixed quotes and honest engineering."
     },
     experience: {
         title: "Turning Ideas",
@@ -104,10 +104,8 @@ function ExperienceTabSlider({ isLowPowerMode }: { isLowPowerMode: boolean }) {
     ];
 
     const categories = [
-        { id: 'professional', label: 'Professional Experience', icon: Briefcase, color: 'bg-blue-600', prefix: 'prof-' },
-        { id: 'leadership', label: 'Leadership & Organizational', icon: Users, color: 'bg-purple-600', prefix: 'lead-' },
-        { id: 'volunteer', label: 'Volunteer Experience', icon: Heart, color: 'bg-orange-500', prefix: 'vol-' },
-        { id: 'certifications', label: 'Certifications & Development', icon: Award, color: 'bg-emerald-500', prefix: 'cert-' },
+        { id: 'milestones', label: 'Company Milestones', icon: Briefcase, color: 'bg-blue-600', prefix: 'ms-' },
+        { id: 'credentials', label: 'Credentials & Recognition', icon: Award, color: 'bg-emerald-500', prefix: 'cred-' },
     ];
 
     const heightFix = () => {
@@ -267,7 +265,7 @@ function ExperienceTabSlider({ isLowPowerMode }: { isLowPowerMode: boolean }) {
                                                     </span>
                                                 </h2>
                                                 <p className="text-xl text-neutral-500 dark:text-neutral-400 max-w-md leading-relaxed">
-                                                    Navigate through the timeline of my career. Choose a lens to filter the experience database.
+                                                    Navigate through the timeline of our company. Choose a lens to filter the milestone database.
                                                 </p>
                                             </motion.div>
 

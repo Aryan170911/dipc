@@ -108,7 +108,7 @@ export function Footer() {
             };
             const timeString = new Intl.DateTimeFormat('en-US', options).format(now);
             // Kolkata is UTC+5:30
-            setLocalTime(`${timeString} UTC+7`);
+            setLocalTime(`${timeString} UTC+5:30`);
         };
 
         updateTime();

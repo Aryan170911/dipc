@@ -1,19 +1,19 @@
 {
     "navigation": {
-        "home": "Beranda",
-        "about": "Tentang",
-        "projects": "Proyek",
-        "experience": "Pengalaman",
-        "skills": "Keahlian",
-        "achievements": "Pencapaian",
-        "blog": "Blog",
-        "gallery": "Galeri",
-        "contact": "Kontak",
+        "home": "होम",
+        "about": "परिचय",
+        "projects": "प्रोजेक्ट्स",
+        "experience": "अनुभव",
+        "skills": "स्किल्स",
+        "achievements": "उपलब्धियां",
+        "blog": "ब्लॉग",
+        "gallery": "गैलरी",
+        "contact": "संपर्क",
         "resume": "Profil",
-        "tools": "Peralatan",
+        "tools": "टूल्स",
         "menu": {
             "achievements": "Pencapaian",
-            "achievementsDesc": "Sertifikasi, penghargaan, dan pencapaian",
+            "achievementsDesc": "प्रमाणपत्र, सम्मान और उपलब्धियां",
             "skills": "Keahlian",
             "skillsDesc": "तकनीक और टूल्स जिनका हम इस्तेमाल करते हैं",
             "experience": "Pengalaman",
@@ -21,16 +21,16 @@
             "projects": "Proyek",
             "projectsDesc": "हमारे काम का प्रदर्शन",
             "blog": "Blog",
-            "blogDesc": "Pemikiran dan eksplorasi teknis",
+            "blogDesc": "विचार और तकनीकी खोज",
             "gallery": "Galeri",
             "galleryDesc": "Arsip visual media dan proyek"
         },
         "shortcuts": {
-            "volume1": "Volume I: Identitas",
-            "volume2": "Volume II: Urutan Profesional",
-            "volume3": "Volume III: Matriks Kompetensi",
-            "volume4": "Volume IV: Output Kreatif",
-            "preview": "Mode Pratinjau",
+            "volume1": "Volume I: पहचान",
+            "volume2": "Volume II: व्यावसायिक क्रम",
+            "volume3": "Volume III: क्षमता मैट्रिक्स",
+            "volume4": "Volume IV: रचनात्मक आउटपुट",
+            "preview": "पूर्वावलोकन मोड",
             "idRef": "ID_REF"
         }
     },
@@ -38,12 +38,12 @@
         "greeting": "DIPC में आपका स्वागत है",
         "subtitle": "Websites • AI Chatbots • Automation",
         "cta": {
-            "primary": "Jelajahi Proyek",
-            "secondary": "Hubungi Saya",
-            "exploreMore": "Jelajahi Lebih Lanjut"
+            "primary": "प्रोजेक्ट्स देखें",
+            "secondary": "संपर्क करें",
+            "exploreMore": "और देखें"
         },
         "badge": "प्रोजेक्ट्स के लिए उपलब्ध",
-        "scroll": "Gulir ke Bawah",
+        "scroll": "नीचे स्क्रॉल करें",
         "role": "AI सॉल्यूशंस कंपनी",
         "description": "हम <span class='text-primary font-semibold'>Web</span>, <span class='text-secondary font-semibold'>AI Chat</span> और <span class='text-accent font-semibold'>Automation</span> के संगम पर व्यावहारिक सिस्टम बनाते हैं।"
     },
@@ -68,23 +68,23 @@
             "headlineSoftware": "Rekayasa Perangkat Lunak Tangguh",
             "thesis": "हम व्यावहारिक business systems और <span class='text-primary italic font-serif-elegant font-normal'>lead capture</span> बनाते हैं जो उनकी कीमत वसूल कराता है।",
             "scope": "बिज़नेस websites, आपके कंटेंट से जवाब देने वाले chatbots, और असली दफ्तरों व नापे जा सकने वाले नतीजों के लिए बनाए गए automations पर ध्यान।",
-            "bridging": "Menghubungkan lab dan sistem langsung.",
-            "integration": "Selain model, saya merancang ekosistem full-stack: backend yang aman, arsitektur data yang kuat, dan pipeline yang skalabel.",
+            "bridging": "Labs और live systems को जोड़ना।",
+            "integration": "Websites के अलावा, हम पूरे business systems बनाते हैं: सुरक्षित backends, lead capture और भरोसेमंद automations।",
             "signature": "DIPC",
             "role": "AI सॉल्यूशंस कंपनी",
             "aboutMe": "DIPC के बारे में",
-            "scroll": "Scroll untuk Jelajah",
+            "scroll": "जानने के लिए स्क्रॉल करें",
             "shortStory": "हमारी कहानी"
         },
         "coreEngineering": {
-            "label": "Rekayasa Inti",
-            "title": "<span class='text-primary italic font-serif font-light lowercase'>stack</span> yang Terbukti. <br /> <span class='italic font-serif font-light text-foreground'>hasil</span> yang Terukur.",
+            "label": "मुख्य Engineering",
+            "title": "<span class='text-primary italic font-serif font-light lowercase'>सिद्ध stack।</span> <br /> <span class='italic font-serif font-light text-foreground'>नापे जा सकने वाले नतीजे।</span>",
             "p1": "हम आधुनिक AI टूलिंग से chatbots और assistants बनाते हैं, उन्हें websites, WhatsApp और Telegram से जोड़ते हैं।",
             "p2": "Websites और web apps Next.js और Node.js पर चलते हैं, भरोसेमंद backups वाले PostgreSQL के साथ।",
             "p3": "हर delivery disciplined version control इस्तेमाल करती है और स्थिर, बिना-झंझट production के लिए बनती है।",
-            "gpa": "IPK Akademik",
-            "projects": "Proyek yang Dibangun",
-            "years": "Tahun Pengalaman"
+            "gpa": "रेटिंग",
+            "projects": "पूरी की गई परियोजनाएं",
+            "years": "अनुभव के वर्ष"
         },
         "emergingResearch": {
             "label": "लगातार सुधार",
@@ -99,41 +99,41 @@
             }
         },
         "profile": {
-            "title": "Membangun <br class='hidden lg:block' /> Sistem Skalabel <br /> Tempat <span class='text-primary italic font-serif font-light lowercase'>Kecerdasan</span> <br /> Bertemu Rekayasa.",
-            "narrativeLabel": "Narasi Inti",
+            "title": "Scalable Systems बनाना <br /> जहाँ Intelligence मिलती है Engineering से।",
+            "narrativeLabel": "मुख्य कथा",
             "narrative": "Digital India Promotion Company भारतीय उद्यमों और संस्थानों के लिए websites, AI chatbots और business automation बनाती है — व्यावहारिक सिस्टम, fixed quotes, zero hidden costs।",
             "narrative2": "हमारा काम स्पष्ट संवाद, मज़बूत engineering और ईमानदार pricing को जोड़ता है ताकि ऐसे solutions मिलें जो उपयोगी, भरोसेमंद हों और असली दुनिया में असर डालें।",
             "pillars": {
                 "reliable": {
-                    "title": "Robust by Design",
-                    "desc": "Direkayasa untuk keandalan di bawah skala dan tekanan operasional."
+                    "title": "डिज़ाइन से मज़बूत",
+                    "desc": "स्केल और दबाव में भरोसे के लिए engineered।"
                 },
                 "optimized": {
-                    "title": "Siap Produksi",
-                    "desc": "Dari prototipe hingga deployment dengan disiplin rekayasa."
+                    "title": "Production के लिए तैयार",
+                    "desc": "Prototype से deployment तक engineering अनुशासन के साथ।"
                 },
                 "maintainable": {
-                    "title": "Dirancang untuk Evolusi",
-                    "desc": "Didesain untuk tumbuh, beradaptasi, dan mempertahankan pengembangan sistem jangka panjang."
+                    "title": "विकास के लिए डिज़ाइन",
+                    "desc": "बढ़ने, ढलने और लंबे समय तक साथ निभाने के लिए बनाया गया।"
                 },
                 "evolvable": {
-                    "title": "Kecerdasan Berbasis Data",
-                    "desc": "Keputusan didukung oleh model, metrik, dan performa yang terukur."
+                    "title": "डेटा-आधारित बुद्धिमत्ता",
+                    "desc": "फैसले models, metrics और नापे गए प्रदर्शन पर आधारित।"
                 }
             }
         },
         "closing": {
             "experience": {
-                "label": "LATAR BELAKANG",
-                "title1": "PENGALAMAN",
-                "title2": "UTAMA",
-                "viewMore": "Semua Pengalaman"
+                "label": "पृष्ठभूमि",
+                "title1": "प्रमुख",
+                "title2": "अनुभव",
+                "viewMore": "सभी अनुभव"
             },
             "projects": {
-                "label": "PORTOFOLIO",
-                "title1": "PROYEK",
-                "title2": "UNGGULAN",
-                "viewMore": "Semua Proyek"
+                "label": "पोर्टफोलियो",
+                "title1": "चुनिंदा",
+                "title2": "प्रोजेक्ट",
+                "viewMore": "सभी प्रोजेक्ट"
             },
             "experiencesList": [
                 {
@@ -184,98 +184,99 @@
                     "desc": "Flagship corporate delivery: animated UI, local asset pack, database-backed quote form।"
                 }
             ],
-            "discoverMore": "Temukan Lebih Lanjut"
+            "discoverMore": "और जानें"
         }
     },
     "projects": {
-        "title": "Proyek",
+        "title": "प्रोजेक्ट्स",
         "subtitle": "हमारी services और client work का प्रदर्शन",
-        "search": "Cari proyek...",
-        "viewAll": "Lihat Semua Proyek",
-        "viewProject": "Lihat Proyek",
-        "liveDemo": "Demo Langsung",
-        "sourceCode": "Kode Sumber",
+        "search": "प्रोजेक्ट्स खोजें...",
+        "viewAll": "सभी प्रोजेक्ट्स देखें",
+        "viewProject": "प्रोजेक्ट देखें",
+        "liveDemo": "लाइव डेमो",
+        "sourceCode": "सोर्स कोड",
         "techStack": "Tech Stack",
-        "tools": "Tools yang Digunakan",
-        "highlights": "Highlights",
-        "challenges": "Tantangan",
+        "tools": "इस्तेमाल किए गए Tools",
+        "highlights": "मुख्य बातें",
+        "challenges": "चुनौतियां",
         "filters": {
-            "all": "Semua",
-            "ongoing": "Sedang Berjalan",
-            "completed": "Selesai"
+            "all": "सभी",
+            "ongoing": "जारी",
+            "completed": "पूर्ण"
         },
         "sections": {
-            "missionBrief": "Misi Singkat",
-            "keyFeatures": "Fitur Utama",
-            "engineeringChronicles": "Kronik Rekayasa",
-            "visualGallery": "Galeri Visual",
-            "installation": "Instruksi Instalasi",
-            "projectAccess": "Akses Proyek",
-            "technologies": "Teknologi",
-            "contents": "Daftar Isi",
-            "moreProjects": "Proyek Lainnya",
-            "backToProjects": "Kembali ke Proyek",
-            "viewMore": "Lihat Lebih Banyak",
-            "viewLess": "Tampilkan Lebih Sedikit",
-            "solution": "Solusi",
-            "liveDemo": "Demo Langsung",
-            "sourceCode": "Kode Sumber"
+            "missionBrief": "संक्षिप्त मिशन",
+            "keyFeatures": "मुख्य फीचर्स",
+            "engineeringChronicles": "engineering डायरी",
+            "visualGallery": "visual गैलरी",
+            "installation": "इंस्टॉल निर्देश",
+            "projectAccess": "प्रोजेक्ट एक्सेस",
+            "technologies": "तकनीकें",
+            "contents": "विषय सूची",
+            "moreProjects": "अन्य प्रोजेक्ट्स",
+            "backToProjects": "प्रोजेक्ट्स पर वापस",
+            "viewMore": "और देखें",
+            "viewLess": "कम दिखाएं",
+            "solution": "समाधान",
+            "liveDemo": "लाइव डेमो",
+            "sourceCode": "सोर्स कोड"
         },
         "status": {
-            "ongoing": "Pengembangan Aktif",
-            "completed": "Proyek Selesai"
+            "ongoing": "सक्रिय विकास",
+            "completed": "पूर्ण प्रोजेक्ट"
         },
         "metadata": {
-            "role": "Peran",
-            "timeline": "Waktu",
-            "team": "Tim",
-            "techStack": "Teknologi",
-            "roleValue": "Pengembang Full Stack",
-            "teamValue": "Individu",
-            "techStackValue": "{count} Teknologi"
+            "role": "भूमिका",
+            "timeline": "समयरेखा",
+            "team": "टीम",
+            "techStack": "तकनीकें",
+            "roleValue": "Full Stack Developer",
+            "teamValue": "DIPC टीम",
+            "techStackValue": "{count} तकनीकें"
         }
     },
     "experience": {
-        "title": "Pengalaman",
+        "title": "अनुभव",
         "subtitle": "हमारी कंपनी की यात्रा और milestones",
-        "showDetail": "Tampilkan Detail",
-        "hideDetail": "Sembunyikan Detail",
-        "tasks": "TUGAS",
+        "showDetail": "विवरण दिखाएं",
+        "hideDetail": "विवरण छिपाएं",
+        "tasks": "कार्य",
         "learned": "हम क्या देते हैं",
-        "impact": "DAMPAK",
-        "present": "Sekarang",
-        "responsibilities": "Tanggung Jawab",
-        "skills": "Keahlian yang Digunakan",
-        "month": "bulan",
-        "months": "bulan",
-        "year": "tahun",
-        "years": "tahun",
+        "impact": "प्रभाव",
+        "present": "वर्तमान",
+        "responsibilities": "ज़िम्मेदारियां",
+        "skills": "इस्तेमाल की गई स्किल्स",
+        "month": "महीना",
+        "months": "महीने",
+        "year": "साल",
+        "years": "वर्षों",
         "type": {
-            "full-time": "Penuh Waktu",
-            "part-time": "Paruh Waktu",
-            "internship": "Magang",
-            "freelance": "Freelance",
-            "contract": "Kontrak",
-            "apprenticeship": "Apprenticeship",
-            "volunteer": "Sukarelawan"
+            "full-time": "पूर्णकालिक",
+            "part-time": "अंशकालिक",
+            "internship": "इंटर्नशिप",
+            "freelance": "फ्रीलांस",
+            "contract": "अनुबंध",
+            "apprenticeship": "प्रशिक्षुता",
+            "volunteer": "स्वयंसेवा",
+            "self-employed": "स्व-नियोजित"
         },
         "filters": {
-            "all": "Semua",
-            "latest": "Terbaru",
-            "oldest": "Terlama",
-            "ongoing": "Sedang Berjalan"
+            "all": "सभी",
+            "latest": "नवीनतम",
+            "oldest": "सबसे पुराना",
+            "ongoing": "जारी"
         },
         "education": {
-            "title": "Pendidikan"
+            "title": "शिक्षा"
         }
     },
     "expertise": {
-        "title": "Kapabilitas Inti",
+        "title": "मुख्य क्षमताएं",
         "subtitle": "व्यावहारिक क्षमताएं जो websites, chatbots और automations को ताकत देती हैं",
-        "dragHint": "Geser atau gulir untuk menjelajah"
+        "dragHint": "खींचें या स्क्रॉल करके देखें"
     },
     "skills": {
-        "title": "Keahlian & Tools",
+        "title": "स्किल्स और टूल्स",
         "subtitle": "तकनीकें और tools जिनसे हम बनाते हैं",
         "hard": "Keahlian Teknis",
         "soft": "Soft Skills",
@@ -288,7 +289,7 @@
         }
     },
     "achievements": {
-        "title": "Pencapaian",
+        "title": "उपलब्धियां",
         "subtitle": "Sertifikasi, penghargaan, dan milestone",
         "viewCredential": "Lihat Kredensial",
         "category": {
@@ -299,34 +300,34 @@
     },
     "contact": {
         "title": "संपर्क करें",
-        "subtitle": "Mari membangun sesuatu yang luar biasa bersama",
+        "subtitle": "आइए मिलकर कुछ शानदार बनाते हैं।",
         "form": {
-            "name": "Nama Anda",
-            "email": "Email Anda",
-            "subject": "Subjek",
-            "message": "Pesan Anda",
-            "messagePlaceholder": "Ceritakan tentang proyek Anda...",
-            "send": "Kirim Pesan",
-            "submit": "KIRIM PESAN",
-            "sending": "MENGIRIM...",
-            "sent": "TERKIRIM!",
-            "success": "Pesan berhasil dikirim!",
-            "error": "Terjadi kesalahan. Silakan coba lagi."
+            "name": "आपका नाम",
+            "email": "आपका email",
+            "subject": "विषय",
+            "message": "आपका संदेश",
+            "messagePlaceholder": "अपने प्रोजेक्ट के बारे में बताइए...",
+            "send": "संदेश भेजें",
+            "submit": "संदेश भेजें",
+            "sending": "भेजा जा रहा है...",
+            "sent": "भेज दिया गया!",
+            "success": "संदेश सफलतापूर्वक भेजा गया!",
+            "error": "कोई त्रुटि हुई। कृपया फिर कोशिश करें।"
         },
         "social": {
-            "title": "Terhubung di Media Sosial"
+            "title": "सोशल मीडिया पर जुड़ें"
         },
         "faq": {
-            "title": "Pertanyaan yang Sering Diajukan"
+            "title": "अक्सर पूछे जाने वाले सवाल"
         },
         "info": {
             "email": "Email",
-            "phone": "Telepon",
-            "location": "Lokasi",
+            "phone": "फोन",
+            "location": "स्थान",
             "availability": "प्रोजेक्ट्स के लिए उपलब्ध"
         },
         "hero": {
-            "title": "MARI BICARA",
+            "title": "आइए बात करें",
             "subtitle": "कोई website, chatbot या automation चाहिए? हमें काम बताइए।",
             "ticker": {
                 "build": "Mari Bangun Sesuatu yang Luar Biasa · ",
@@ -357,133 +358,133 @@
         ]
     },
     "stats": {
-        "systemStatus": "Status Sistem: Analitik Aktif",
-        "portfolio": "Engineering Metrics",
-        "totalPulse": "Total Denyut",
-        "peakActivity": "Aktivitas Puncak",
-        "dailyAverage": "Rata-rata Harian",
-        "currentSprint": "Sprint Saat Ini",
-        "engageFlow": "Alur Keterlibatan",
-        "weeklyEffort": "Upaya Coding Mingguan",
-        "processSpeed": "Kecepatan Proses",
-        "avgPerf": "Performa Rata-rata",
-        "latency": "LATENSI: 14MS",
-        "system": "SISTEM: DARWIN_X64_STABIL",
-        "scanning": "MEMINDAI_SUMBER_DAYA_LANGSUNG",
-        "engineering": "REKAYASA",
-        "metrics": "METRIK",
-        "analyticsSub": "ANALITIK / INFRASTRUKTUR / DATA PERFORMA",
-        "statusOnline": "STATUS: ONLINE",
-        "loadStable": "BEBAN_SISTEM: STABIL"
+        "systemStatus": "सिस्टम स्थिति: एनालिटिक्स सक्रिय",
+        "portfolio": "engineering मेट्रिक्स",
+        "totalPulse": "कुल पल्स",
+        "peakActivity": "चरम गतिविधि",
+        "dailyAverage": "दैनिक औसत",
+        "currentSprint": "वर्तमान स्प्रिंट",
+        "engageFlow": "एंगेजमेंट फ्लो",
+        "weeklyEffort": "साप्ताहिक coding प्रयास",
+        "processSpeed": "प्रोसेस गति",
+        "avgPerf": "औसत प्रदर्शन",
+        "latency": "विलंबता: 14MS",
+        "system": "सिस्टम: DARWIN_X64_STABLE",
+        "scanning": "लाइव संसाधन स्कैन",
+        "engineering": "engineering",
+        "metrics": "मेट्रिक्स",
+        "analyticsSub": "एनालिटिक्स / बुनियादी ढांचा / प्रदर्शन डेटा",
+        "statusOnline": "स्थिति: ऑनलाइन",
+        "loadStable": "सिस्टम लोड: स्थिर"
     },
     "projectHeader": {
-        "title": "Merancang Realitas Digital",
+        "title": "डिजिटल वास्तविकता की रचना",
         "subtitle": "व्यावहारिक business systems का curated प्रदर्शन। <span class='font-bold text-foreground'>असली offices</span>, असली customers और असली नतीजों के लिए बने websites, chatbots और automations।"
     },
     "footer": {
-        "copyright": "Hak cipta dilindungi.",
-        "madeWith": "Dibuat dengan",
-        "more": "Lainnya",
+        "copyright": "सर्वाधिकार सुरक्षित।",
+        "madeWith": "निर्मित",
+        "more": "और",
         "marquee": [
             "प्रोजेक्ट्स के लिए उपलब्ध",
-            "Pengembangan Frontend",
-            "Arsitektur Backend",
-            "Desain UI/UX",
-            "Coding Kreatif",
-            "Optimasi Sistem"
+            "Frontend विकास",
+            "Backend आर्किटेक्चर",
+            "UI/UX डिज़ाइन",
+            "रचनात्मक कोडिंग",
+            "सिस्टम अनुकूलन"
         ],
         "cta": {
-            "title": "Mari Bekerja",
-            "titleHighlight": "Bersama",
-            "subtitle": "Punya proyek? Mari bangun sesuatu yang luar biasa yang memecahkan masalah nyata."
+            "title": "आइए मिलकर",
+            "titleHighlight": "काम करें",
+            "subtitle": "कोई प्रोजेक्ट है? आइए ऐसी चीज़ बनाते हैं जो असली समस्याएं सुलझाए।"
         },
-        "links": "TAUTAN",
-        "socials": "SOSIAL",
-        "localTime": "WAKTU LOKAL",
-        "version": "VERSI",
-        "versionEdition": "2026 © Edition"
+        "links": "लिंक्स",
+        "socials": "सोशल",
+        "localTime": "स्थानीय समय",
+        "version": "संस्करण",
+        "versionEdition": "2026 © संस्करण"
     },
     "ctaSection": {
-        "title": "Mari Membangun Sesuatu yang",
-        "together": "Bersama",
+        "title": "आइए कुछ",
+        "together": "बनाते हैं",
         "subtitle": "कोई website, chatbot चाहिए या repetitive office work से छुटकारा? हमें काम बताइए — हम fixed quote के साथ जवाब देते हैं।",
         "start": "Quote पाएं",
         "work": "हमारा काम देखें",
         "words": {
-            "amazing": "Luar Biasa",
-            "innovative": "Inovatif",
-            "intelligent": "Cerdas",
-            "creative": "Kreatif"
+            "amazing": "शानदार",
+            "innovative": "नवाचारी",
+            "intelligent": "बुद्धिमान",
+            "creative": "रचनात्मक"
         },
         "ribbon1": "Next.js • React • JavaScript • Python • LangChain • WhatsApp API • Telegram API • PostgreSQL • Tailwind CSS • Node.js",
         "ribbon2": "Websites • AI Chatbots • Automation • WhatsApp Bots • Lead Systems • E-commerce • Care Plans"
     },
     "common": {
-        "loading": "Memuat...",
-        "error": "Terjadi kesalahan",
-        "notFound": "Halaman tidak ditemukan",
-        "backHome": "Kembali ke Beranda",
-        "viewMore": "Lihat Selengkapnya",
-        "readMore": "Baca Selengkapnya",
-        "close": "Tutup",
-        "download": "Unduh",
-        "share": "Bagikan",
-        "scrollAudit": "Gulir untuk Menjelajah"
+        "loading": "लोड हो रहा है...",
+        "error": "कुछ गलत हुआ",
+        "notFound": "पेज नहीं मिला",
+        "backHome": "होम पर वापस",
+        "viewMore": "और देखें",
+        "readMore": "और पढ़ें",
+        "close": "बंद करें",
+        "download": "डाउनलोड",
+        "share": "शेयर",
+        "scrollAudit": "जानने के लिए स्क्रॉल करें"
     },
     "technical": {
         "github": {
-            "title": "Kontribusi GitHub",
+            "title": "GitHub योगदान",
                 "description": "पिछले एक साल की हमारी GitHub activity।",
-            "total": "Total",
-            "thisWeek": "Minggu Ini",
-            "best": "Terbaik",
-            "average": "Rata-rata",
-            "less": "Sedikit",
-            "more": "Banyak"
+            "total": "कुल",
+            "thisWeek": "इस सप्ताह",
+            "best": "सर्वश्रेष्ठ",
+            "average": "औसत",
+            "less": "कम",
+            "more": "अधिक"
         },
         "wakatime": {
-            "title": "Statistik WakaTime",
-            "description": "Aktivitas coding selama 7 hari terakhir.",
-            "lastUpdate": "Pembaruan Terakhir",
-            "startDate": "Tanggal Mulai",
-            "endDate": "Tanggal Selesai",
-            "dailyAverage": "Rata-rata Harian",
-            "totalWeek": "Total Minggu Ini",
-            "bestDay": "Hari Terbaik",
-            "totalSince": "Total Sejak Bergabung",
-            "topLanguages": "Bahasa Teratas"
+            "title": "WakaTime आंकड़े",
+            "description": "पिछले 7 दिनों की coding activity।",
+            "lastUpdate": "अंतिम अपडेट",
+            "startDate": "शुरुआत की तारीख",
+            "endDate": "समाप्ति तारीख",
+            "dailyAverage": "दैनिक औसत",
+            "totalWeek": "इस सप्ताह कुल",
+            "bestDay": "सबसे अच्छा दिन",
+            "totalSince": "शुरुआत से कुल",
+            "topLanguages": "शीर्ष भाषाएं"
         }
     },
     "blog": {
-        "title": "Pemikiran & Eksplorasi",
+        "title": "विचार और खोज",
         "subtitle": "Websites, AI chatbots, automation और online business चलाने पर व्यावहारिक notes।",
-        "sectionBadge": "Digital Archive",
-        "search": "Cari artikel...",
-        "readTime": "menit baca",
-        "readMore": "Baca Artikel",
-        "back": "Kembali ke Blog",
-        "noResults": "Tidak ada artikel ditemukan",
+        "sectionBadge": "डिजिटल आर्काइव",
+        "search": "लेख खोजें...",
+        "readTime": "मिनट में पढ़ें",
+        "readMore": "पूरा पढ़ें",
+        "back": "ब्लॉग पर वापस",
+        "noResults": "कोई लेख नहीं मिला",
         "categories": {
-            "applied-ai": "Applied AI",
-            "software-development": "Software Dev",
+            "applied-ai": "एप्लाइड AI",
+            "software-development": "सॉफ्टवेयर विकास",
             "about-me": "DIPC के बारे में",
-            "more": "More"
+            "more": "और"
         }
     },
     "gallery": {
-        "title": "Arsip Visual",
-        "subtitle": "Koleksi kurasi highlight proyek, dokumentasi teknis, dan eksplorasi visual kreatif.",
+        "title": "visual संग्रह",
+        "subtitle": "project highlights, तकनीकी दस्तावेज़ और रचनात्मक visual खोज का curated संग्रह।",
         "filter": {
-            "all": "Semua Media",
-            "image": "Foto",
-            "video": "Video"
+            "all": "सभी मीडिया",
+            "image": "तस्वीरें",
+            "video": "वीडियो"
         },
-        "viewMedia": "Lihat Media"
+        "viewMedia": "मीडिया देखें"
     },
     "chatbot": {
-        "title": "Asisten AI",
+        "title": "AI सहायक",
         "subtitle": "DIPC के बारे में पूछें",
-        "placeholder": "Ketik pesan...",
+        "placeholder": "संदेश लिखें...",
         "greeting": "नमस्ते! मैं DIPC assistant हूँ। 👋\n\nमैं इन बारे में बता सकता हूँ:\n- Services और pricing\n- Projects और कार्य\n- Company journey\n- Support और care plans\n\nआप क्या जानना चाहेंगे?",
         "suggestions": [
             "आपकी services क्या हैं?",
@@ -491,11 +492,11 @@
             "Website की कीमत कितनी है?",
             "क्या launch के बाद support मिलता है?"
         ],
-        "error": "Terjadi kesalahan. Silakan coba lagi.",
-        "invalidResponse": "Respons tidak valid dari server.",
-        "unknownError": "Terjadi kesalahan yang tidak diketahui.",
-        "retry": "Coba lagi",
-        "inputHint": "Enter untuk kirim, Shift+Enter untuk baris baru",
-        "close": "Tutup chat"
+        "error": "कोई त्रुटि हुई। फिर कोशिश करें।",
+        "invalidResponse": "सर्वर से अमान्य जवाब।",
+        "unknownError": "अज्ञात त्रुटि हुई।",
+        "retry": "फिर कोशिश करें",
+        "inputHint": "भेजने के लिए Enter, नई पंक्ति के लिए Shift+Enter",
+        "close": "चैट बंद करें"
     }
 }

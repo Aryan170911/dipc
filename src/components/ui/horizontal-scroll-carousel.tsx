@@ -8,7 +8,7 @@ import {
   RefreshCw, BookOpen, Network, LineChart, Search
 } from "lucide-react";
 
-// Lucide icons disesuaikan dengan skill baru (AI & Software Engineer)
+// Lucide icons matched to DIPC capabilities
 const skillIcons: Record<string, any> = {
   'Problem Solving': Puzzle,
   'Systemic Thinking': Network,
@@ -22,7 +22,7 @@ const skillIcons: Record<string, any> = {
   'Research Skills': Search,
 };
 
-// Popsy SVG illustrations yang dipastikan berfungsi
+// Popsy SVG illustrations verified working
 const skillVisuals: Record<string, string> = {
   'Problem Solving': 'https://illustrations.popsy.co/white/genius.svg',
   'Systemic Thinking': 'https://illustrations.popsy.co/white/abstract-art-6.svg',
@@ -77,7 +77,7 @@ export const HorizontalScrollCarousel = () => {
           </motion.div>
         </div>
 
-        {/* Carousel Items (Rata atas dengan jarak pasti agar teks tidak nempel) */}
+                {/* Carousel Items (top-aligned with fixed gaps) */}
         <div className="flex-1 flex items-center w-full relative mt-4 lg:mt-6">
           <motion.div style={{ x }} className="flex gap-6 md:gap-8 px-6 md:px-24 absolute w-max">
             {allCards.map((card) => {
