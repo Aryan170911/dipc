@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Inter, JetBrains_Mono, Playfair_Display, Alex_Brush } from 'next/font/google';
 import { getMessages, getLocale } from 'next-intl/server';
 import { ThemeProvider, I18nProvider, SmoothScrollProvider } from '@/providers';
+import { Analytics } from '@vercel/analytics/next';
 
 import '@/styles/globals.css';
 
@@ -113,6 +114,7 @@ export default async function RootLayout({
                         </SmoothScrollProvider>
                     </I18nProvider>
                 </ThemeProvider>
+                <Analytics />
             </body>
         </html>
     );
