@@ -15,11 +15,11 @@
             "achievements": "Achievements",
             "achievementsDesc": "Certifications, awards, and milestones",
             "skills": "Skills",
-            "skillsDesc": "Technologies and tools I work with",
+            "skillsDesc": "Technologies and tools we use",
             "experience": "Experience",
-            "experienceDesc": "My professional journey and growth",
+            "experienceDesc": "Our company journey and growth",
             "projects": "Projects",
-            "projectsDesc": "A showcase of all my work",
+            "projectsDesc": "A showcase of our work",
             "blog": "Blog",
             "blogDesc": "Thoughts and technical explorations",
             "gallery": "Gallery",
@@ -35,74 +35,74 @@
         }
     },
     "hero": {
-        "greeting": "Welcome to my digital space",
-        "subtitle": "Full Stack Developer • AI Engineer • Data Scientist",
+        "greeting": "Welcome to DIPC",
+        "subtitle": "Websites • AI Chatbots • Automation",
         "cta": {
             "primary": "Explore Projects",
             "secondary": "Get in Touch",
             "exploreMore": "Explore More"
         },
-        "badge": "Available for opportunities",
+        "badge": "Open for projects",
         "scroll": "Scroll Down",
-        "role": "Software Engineer",
-        "description": "Building intelligent systems at the intersection of <span class='text-primary font-semibold'>AI</span>, <span class='text-secondary font-semibold'>Engineering</span>, and <span class='text-accent font-semibold'>Scalable Architecture</span>."
+        "role": "AI Solutions Company",
+        "description": "We build practical systems at the intersection of <span class='text-primary font-semibold'>Web</span>, <span class='text-secondary font-semibold'>AI Chat</span>, and <span class='text-accent font-semibold'>Automation</span>."
     },
     "about": {
-        "title": "About Me",
-        "subtitle": "Tech Explorer & Problem Solver",
-        "description": "A passionate tech explorer specializing in Full Stack Development, Artificial Intelligence, and Data Science. Currently diving deep into AI Agents and Blockchain technology.",
+        "title": "About DIPC",
+        "subtitle": "Websites, Chatbots & Automation",
+        "description": "Digital India Promotion Company builds websites, AI chatbots and business automation for Indian enterprises and institutions.",
         "stats": {
-            "experience": "Years Learning",
-            "projects": "Projects Done",
-            "certifications": "Certifications",
-            "competitions": "Competitions"
+            "experience": "Years Serving",
+            "projects": "Projects Delivered",
+            "certifications": "Technologies",
+            "competitions": "Automations Live"
         },
         "identity": "Identity Link Established",
         "architecting": "Architecting",
         "digitalReality": "Digital Reality",
         "leadIn": {
-            "label": "WHAT I DO",
+            "label": "WHAT WE DO",
             "tagline": "CORE FOCUS",
             "headlineAI": "Applied AI.",
             "headlineData": "Scalable Data.",
             "headlineSoftware": "Robust software engineering",
-            "thesis": "I build intelligent systems and the <span class='text-primary italic font-serif-elegant font-normal'>data infrastructure</span> that makes them reliable at scale.",
-            "scope": "Focusing on predictive models, optimized data processing, and RAG pipelines designed for production environments and measurable performance.",
+            "thesis": "We build practical business systems and the <span class='text-primary italic font-serif-elegant font-normal'>lead capture</span> that makes them pay for themselves.",
+            "scope": "Focusing on business websites, chatbots that answer from your content, and automations designed for real offices and measurable results.",
             "bridging": "Bridging labs and live systems.",
             "integration": "Beyond models, I architect full-stack ecosystems: secure backends, robust data architectures, and scalable pipelines.",
-            "signature": "Azril",
-            "role": "AI, Data & Software Engineer",
-            "aboutMe": "About Me",
+            "signature": "DIPC",
+            "role": "AI Solutions Company",
+            "aboutMe": "About DIPC",
             "scroll": "Scroll to Explore",
-            "shortStory": "My Short Story"
+            "shortStory": "Our Story"
         },
         "coreEngineering": {
             "label": "Core Engineering",
             "title": "Proven <span class='text-primary italic font-serif font-light lowercase'>stack.</span> <br /> Measurable <span class='italic font-serif font-light text-foreground'>results.</span>",
-            "p1": "I develop applied AI systems using TensorFlow, Scikit-learn, and LangChain, structuring workflows and exposing models as services through Flask and FastAPI.",
-            "p2": "Integrated into full-stack apps with Next.js, Express.js, and Spring Boot, backed by PostgreSQL and Prisma ORM.",
-            "p3": "All projects use disciplined version control, Docker containerization, and are built for stable production deployment.",
+            "p1": "We build chatbots and assistants with modern AI tooling, connecting them to websites, WhatsApp and Telegram.",
+            "p2": "Websites and web apps run on Next.js and Node.js, backed by PostgreSQL databases with reliable backups.",
+            "p3": "Every delivery uses disciplined version control and is built for stable, boring-in-a-good-way production.",
             "gpa": "Academic GPA",
             "projects": "Projects Built",
             "years": "Years Exp."
         },
         "emergingResearch": {
-            "label": "Exploration Phase",
-            "title": "EMERGING RESEARCH <span class='italic font-serif font-light text-primary lowercase'>&</span> EXPANSION",
+            "label": "Always Improving",
+            "title": "ALWAYS IMPROVING <span class='italic font-serif font-light text-primary lowercase'>&</span> EXPANDING",
             "agentic": {
-                "title": "AGENTIC AI SYSTEMS",
-                "desc": "Exploring autonomous agents, multi-agent orchestration, and reasoning frameworks — extending my applied AI foundation into self-directed decision-making systems."
+                "title": "SMARTER CHATBOTS",
+                "desc": "Sharper answers from client content, better lead capture and smoother human handover — our bots get more helpful every month."
             },
             "web3": {
-                "title": "WEB3 & BLOCKCHAIN",
-                "desc": "Building decentralized applications with Solidity and Hardhat. Currently hands-on with smart contract development through projects like the Web3 Guestbook DApp on Ethereum."
+                "title": "DEEPER AUTOMATION",
+                "desc": "More office workflows automated: follow-ups, reminders, reports and app integrations, all inside tools teams already use."
             }
         },
         "profile": {
             "title": "Architecting Scalable Systems <br /> Where Intelligence Meets Engineering.",
             "narrativeLabel": "Core Narrative",
-            "narrative": "As an Information Technology student specializing in Artificial Intelligence and Software Engineering, I focus on building systems that bridge research foundations with production-ready implementation.",
-            "narrative2": "My work combines algorithmic thinking, backend engineering, and scalable architecture to deliver solutions that are intelligent, reliable, and built for real-world impact.",
+            "narrative": "Digital India Promotion Company builds websites, AI chatbots and business automation for Indian enterprises and institutions — practical systems, fixed quotes, zero hidden costs.",
+            "narrative2": "Our work combines clear communication, solid engineering and honest pricing to deliver solutions that are useful, reliable and built for real-world impact.",
             "pillars": {
                 "reliable": {
                     "title": "Robust by Design",
@@ -137,51 +137,51 @@
             },
             "experiencesList": [
                 {
-                    "company": "Dicoding Academy",
-                    "role": "MACHINE LEARNING CODE REVIEWER",
-                    "desc": "Technical evaluation and quality assurance of ML project submissions. Validating logical correctness, efficiency, and enforcing industry best practices for learners."
+                    "company": "DIPC Founded",
+                    "role": "COMPANY MILESTONE",
+                    "desc": "Fixed quotes, preview links and client ownership from day one."
                 },
                 {
-                    "company": "Advanced Software Engineering Laboratory",
-                    "role": "SYSTEM ANALYST INTERN",
-                    "desc": "Translating complex requirements into SRS documentation and designing system architectures using UML diagrams. focused on software design."
+                    "company": "Krishi Sewa Demo Store",
+                    "role": "FIRST CLIENT WORK",
+                    "desc": "Demo web-store for farmer-focused commerce — our e-commerce blueprint."
                 },
                 {
-                    "company": "Cyber Physical System Laboratory",
-                    "role": "RESEARCH ASSISTANT (CONTRACT)",
-                    "desc": "Developing AI-driven research products and designing learning materials for Deep Learning and Computer Vision. Contributing to intelligent systems."
+                    "company": "AI Services Launch",
+                    "role": "NEW OFFERINGS",
+                    "desc": "Chatbots, chat-platform bots and office automation join the menu."
                 },
                 {
-                    "company": "HUMIC Engineering Research Center",
-                    "role": "AI DEVELOPER INTERN",
-                    "desc": "Built Transformer-based attack detection models for cybersecurity applications. Managed large-scale datasets through the full ML pipeline."
+                    "company": "Mathrubhumi Site Live",
+                    "role": "FLAGSHIP DELIVERY",
+                    "desc": "Corporate site with animated UI and database-backed lead capture."
                 },
                 {
-                    "company": "Cyber Physical System Laboratory",
-                    "role": "COMPUTER VISION RESEARCHER INTERN",
-                    "desc": "End-to-end development of intelligent models using state-of-the-art Deep Learning architectures. Implemented ML algorithms for real-world applications."
+                    "company": "Care Plans",
+                    "role": "ONGOING SUPPORT",
+                    "desc": "Monthly updates, backups and priority support for everything we ship."
                 }
             ],
             "projectsList": [
                 {
-                    "title": "Creative Portfolio Website",
-                    "desc": "Modern, animated portfolio with 3D elements, physics-simulated interactions, and shader-based warp effects. Engineered for high performance & optimization."
+                    "title": "Websites & Web Apps",
+                    "desc": "Fast, mobile-first business sites with lead capture built in — from landing pages to full stores."
                 },
                 {
-                    "title": "SNBTIn - Platform Persiapan SNBT 2025",
-                    "desc": "Leading EdTech platform in Indonesia for exam preparation. Featuring a comprehensive learning ecosystem with interactive and real-time analytics."
+                    "title": "AI Chatbots & Assistants",
+                    "desc": "Bots trained on client content that answer instantly, capture leads and hand over to humans."
                 },
                 {
-                    "title": "TerraFlow Platform",
-                    "desc": "Enterprise IoT solution for precision agriculture. ESP32 sensor nodes communicate with Firebase via a Go (Gin), with a Next.js dashboard for real-time monitoring"
+                    "title": "Business Process Automation",
+                    "desc": "Follow-ups, reminders, data sync and reports running inside tools teams already use."
                 },
                 {
-                    "title": "DocsInsight Engine",
-                    "desc": "Private RAG platform for intelligent document analysis. Powered by local LLMs through Ollama, with LangChain orchestration and ChromaDB vector search."
+                    "title": "WhatsApp & Telegram Bots",
+                    "desc": "Ordering, support and broadcasts on official business APIs — no ban-prone shortcuts."
                 },
                 {
-                    "title": "POLABDC Dental Management",
-                    "desc": "AI-powered dental clinic SaaS with disease prediction, real-time queue management, and a Monorepo architecture Next.js, Express.js, and Python"
+                    "title": "Mathrubhumi Enterprises Site",
+                    "desc": "Flagship corporate delivery: animated UI, local asset pack, database-backed quote form."
                 }
             ],
             "discoverMore": "Discover More"
@@ -189,7 +189,7 @@
     },
     "projects": {
         "title": "Projects",
-        "subtitle": "A showcase of my creative and technical work",
+        "subtitle": "A showcase of our services and client work",
         "search": "Search projects...",
         "viewAll": "View All Projects",
         "viewProject": "View Project",
@@ -237,11 +237,11 @@
     },
     "experience": {
         "title": "Experience",
-        "subtitle": "My professional journey and growth",
+        "subtitle": "Our company journey and milestones",
         "showDetail": "Show Detail",
         "hideDetail": "Hide Detail",
         "tasks": "TASKS",
-        "learned": "WHAT I LEARNED",
+        "learned": "WHAT WE DELIVER",
         "impact": "IMPACT",
         "present": "Present",
         "responsibilities": "Responsibilities",
@@ -271,12 +271,12 @@
     },
     "expertise": {
         "title": "Core Capabilities",
-        "subtitle": "Specialized in cutting-edge technologies that power modern digital experiences",
+        "subtitle": "Practical capabilities that power websites, chatbots and automations",
         "dragHint": "Drag or scroll to explore"
     },
     "skills": {
         "title": "Skills & Tools",
-        "subtitle": "Technologies and tools I work with",
+        "subtitle": "Technologies and tools we build with",
         "hard": "Hard Skills",
         "soft": "Soft Skills",
         "technical": "Technical Proficiency",
@@ -338,36 +338,36 @@
             "email": "Email",
             "phone": "Phone",
             "location": "Location",
-            "availability": "Open for opportunities"
+            "availability": "Open for projects"
         },
         "hero": {
             "title": "LET'S TALK",
-            "subtitle": "Have an idea? Let's build something extraordinary together.",
+            "subtitle": "Need a website, chatbot or automation? Tell us the job.",
             "ticker": {
                 "build": "Let's Build Something Amazing · ",
-                "freelance": "Available for Freelance · "
+                "freelance": "Open for Projects · "
             }
         },
         "faqData": [
             {
-                "q": "What is your main area of expertise?",
-                "a": "As an Information Technology student at Telkom University and a Research Assistant at the Cyber Physical System Laboratory, I specialize in the intersection of Artificial Intelligence (Computer Vision & Deep Learning), Full-stack Development (Next.js & Node.js), and emerging Blockchain/Web3 technologies."
+                "q": "What does DIPC specialize in?",
+                "a": "Business websites, AI chatbots and assistants, WhatsApp and Telegram bots, and office automation — all with fixed quotes and human support."
             },
             {
-                "q": "Are you available for research or freelance collaborations?",
-                "a": "Absolutely. I am currently active in AI research at the CPS Lab and HUMIC Research Center, but I'm always open to innovative freelance projects, internships, or technical collaborations that bridge innovation with strategic execution."
+                "q": "How do we start working together?",
+                "a": "Absolutely. Send your requirement through the quote form or email admin@dipc.site — we reply with next steps and a fixed price."
             },
             {
                 "q": "What is your typical tech stack for production?",
-                "a": "For AI projects, I primarily use Python with TensorFlow, PyTorch, and YOLO. For web applications, my go-to is the T3-style stack: Next.js, TypeScript, and Tailwind CSS, often integrated with AI Agents or Smart Contracts where appropriate."
+                "a": "Websites run on Next.js, React and Tailwind CSS. Chatbots use modern AI tooling with LangChain. Bots run on official WhatsApp and Telegram business APIs, with PostgreSQL databases and backups."
             },
             {
-                "q": "Do you have experience with enterprise or lab projects?",
-                "a": "Yes, I've served as a System Analyst and AI Developer in various research-driven environments. I've architected everything from AIoT platforms and attack detection systems to student practicum modules for global audiences."
+                "q": "Do you have experience with enterprise or institutional projects?",
+                "a": "Yes. Our web-store work for Krishi Sewa Foundation and the corporate site for Mathrubhumi Enterprises are recent examples of institutional delivery."
             },
             {
                 "q": "How can we start a partnership or project?",
-                "a": "The most efficient way is to use the contact form above or reach out directly via email at admin@dipc.site. I'm usually able to respond within 24 hours to discuss how my technical skill set can add value to your initiatives."
+                "a": "The most efficient way is to use the contact form above or reach out directly via email at admin@dipc.site. We usually reply within 24 hours with next steps and a fixed quote."
             }
         ]
     },
@@ -397,17 +397,17 @@
     "ctaSection": {
         "title": "Let's Build Something",
         "together": "Together",
-        "subtitle": "Open to strategic collaborations in AI driven systems and scalable full Stack Engineering. Let’s transform ambitious ideas into production ready solutions.",
-        "start": "Hire Me",
-        "work": "View My Resume",
+        "subtitle": "Need a website, a chatbot or freedom from repetitive office work? Tell us the job — we reply with a fixed quote.",
+        "start": "Get a Quote",
+        "work": "See Our Work",
         "words": {
             "amazing": "Amazing",
             "innovative": "Innovative",
             "intelligent": "Intelligent",
             "creative": "Creative"
         },
-        "ribbon1": "Next.js • React • Python • PyTorch • Pandas • TypeScript • Node.js • Scikit-Learn • TensorFlow • SQL",
-        "ribbon2": "Software Engineer • AI Engineer • Data Scientist • Data Analyst • Machine Learning Engineer • Backend Developer • Full Stack Engineer • NLP Engineer • Data Engineer • Web Developer"
+        "ribbon1": "Next.js • React • JavaScript • Python • LangChain • WhatsApp API • Telegram API • PostgreSQL • Tailwind CSS • Node.js",
+        "ribbon2": "Websites • AI Chatbots • Automation • WhatsApp Bots • Lead Systems • E-commerce • Care Plans"
     },
     "stats": {
         "systemStatus": "System Status: Analytics Active",
@@ -431,7 +431,7 @@
     },
     "projectHeader": {
         "title": "Architecting Digital Reality",
-        "subtitle": "A curated showcase of technical innovation and creative engineering. Exploring the frontiers of <span class='font-bold text-foreground'>Artificial Intelligence</span>, Blockchain, Data, and Immersive Web experiences."
+        "subtitle": "A curated showcase of practical business systems. Websites, chatbots and automations built for <span class='font-bold text-foreground'>real offices</span>, real customers and real results."
     },
     "common": {
         "loading": "Loading...",
@@ -448,7 +448,7 @@
     "technical": {
         "github": {
             "title": "GitHub Contributions",
-            "description": "My GitHub activity over the last year.",
+                "description": "Our GitHub activity over the last year.",
             "total": "Total",
             "thisWeek": "This Week",
             "best": "Best",
@@ -471,7 +471,7 @@
     },
     "blog": {
         "title": "Thoughts & Explorations",
-        "subtitle": "Bridging the gap between technical complexity and practical implementation. A collection of insights on AI, Web3, and Software Engineering.",
+        "subtitle": "Practical notes on websites, AI chatbots, automation and running an online business.",
         "sectionBadge": "The Digital Archive",
         "search": "Search articles...",
         "readTime": "min read",
@@ -481,7 +481,7 @@
         "categories": {
             "applied-ai": "Applied AI",
             "software-development": "Software Dev",
-            "about-me": "About Me",
+            "about-me": "About DIPC",
             "more": "More"
         }
     },
@@ -497,14 +497,14 @@
     },
     "chatbot": {
         "title": "AI Assistant",
-        "subtitle": "Ask me about Azril",
+        "subtitle": "Ask about DIPC",
         "placeholder": "Type a message...",
-        "greeting": "Hi! I'm an AI assistant for **{name}**. 👋\n\nI can answer questions about:\n- Skills & technical expertise\n- Projects and work\n- Experience\n- Education\n- And more!\n\nAnything you'd like to ask?",
+        "greeting": "Hi! I am the DIPC assistant. 👋\n\nI can answer questions about:\n- Services and pricing\n- Projects and work\n- Company journey\n- Support and care plans\n\nWhat would you like to know?",
         "suggestions": [
-            "What are your main skills?",
-            "Tell me about your best project",
-            "What is your work experience?",
-            "What AI skills do you have?"
+            "What services do you offer?",
+            "Tell me about the Mathrubhumi project",
+            "How much does a website cost?",
+            "Do you provide support after launch?"
         ],
         "error": "An error occurred. Please try again.",
         "invalidResponse": "Invalid response from server.",
