@@ -973,16 +973,12 @@ export default function ProjectsPage() {
 
     const products = useMemo(() => {
         const techImages = [
-            "/project/parallax/image1.webp",
-            "/project/parallax/image2.webp",
-            "/project/parallax/image3.webp",
-            "/project/parallax/image4.webp",
-            "/project/parallax/image5.webp",
-            "/project/parallax/image6.webp",
-            "/project/parallax/image7.webp",
-            "/project/parallax/image8.webp",
-            "/project/parallax/image9.webp",
-            "/project/parallax/image10.webp",
+            "/project/mathrubhumi-hero.webp",
+            "/dipc-light.svg",
+            "/dipc-dark.svg",
+            "/project/mathrubhumi-hero.webp",
+            "/dipc-light.svg",
+            "/dipc-dark.svg",
         ];
 
         const baseProducts = portfolioData.projects.map((p, i) => ({

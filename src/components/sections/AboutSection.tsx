@@ -32,54 +32,54 @@ import { WakaTimeShowcase } from "@/components/ui/wakatime-showcase";
 import { ShowcaseStack } from "@/components/ui/showcase-stack";
 
 const showcaseMembers = [
-    // 1. Cyber Physical Systems Laboratory
-    ...portfolioData.experiences.filter(exp => exp.id === 'prof-7').map(exp => ({
+    // 1. DIPC Founded
+    ...portfolioData.experiences.filter(exp => exp.id === 'ms-1').map(exp => ({
         id: exp.id,
-        name: "Cyber Physical Systems Laboratory",
+        name: "DIPC Founded",
         role: exp.position.replace(' (Contract-Based)', ''),
         description: exp.description,
-        period: "August 2025 - Present",
-        image: "/journey/researchassistant2.webp",
+        period: "2024",
+        image: "/dipc-light.svg",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
-    // 2. HUMIC Engineering
-    ...portfolioData.experiences.filter(exp => exp.id === 'prof-3').map(exp => ({
+    // 2. First client work
+    ...portfolioData.experiences.filter(exp => exp.id === 'ms-2').map(exp => ({
         id: exp.id,
-        name: "HUMIC Engineering",
+        name: "First Client Work",
         role: exp.position,
         description: exp.description,
-        period: "September 2025 - December 2025",
-        image: "/journey/aideveloperintern1.webp",
+        period: "2024 - 2025",
+        image: "/dipc-light.svg",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
-    // 3. DIPC delivery process
-    ...portfolioData.experiences.filter(exp => exp.id === 'prof-6').map(exp => ({
+    // 3. AI services launch
+    ...portfolioData.experiences.filter(exp => exp.id === 'ms-3').map(exp => ({
         id: exp.id,
         name: exp.company,
         role: exp.position.replace(' (Contract-Based)', ''),
         description: exp.description,
-        period: "September 2025 - January 2026",
-        image: "/journey/computernetworkpracticumassistant2.webp",
+        period: "2025 - 2026",
+        image: "/dipc-light.svg",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
-    // 4. DIPC care plans
-    ...portfolioData.experiences.filter(exp => exp.id === 'lead-2').map(exp => ({
+    // 4. Flagship delivery
+    ...portfolioData.experiences.filter(exp => exp.id === 'ms-4').map(exp => ({
         id: exp.id,
         name: exp.company,
         role: exp.position,
         description: exp.description,
-        period: "October 2025 - December 2025",
-        image: "/journey/chiefcommittee1.webp",
+        period: "October 2026",
+        image: "/project/mathrubhumi-hero.webp",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
-    // 5. Food and Agriculture Office of Bandung City
-    ...portfolioData.experiences.filter(exp => exp.id === 'prof-8').map(exp => ({
+    // 5. Care plans
+    ...portfolioData.experiences.filter(exp => exp.id === 'ms-5').map(exp => ({
         id: exp.id,
-        name: "Food and Agriculture Office of Bandung City",
+        name: "Care Plans",
         role: exp.position,
         description: exp.description,
-        period: "July - September 2025",
-        image: "/journey/dataentryassistant1.webp",
+        period: "2026 - Present",
+        image: "/dipc-light.svg",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
     // 6. View more
@@ -93,21 +93,9 @@ const showcaseMembers = [
 ];
 
 const GALLERY_IMAGES = [
-    "/gallery/Foto Utama.webp",
-    "/gallery/FotoSC1.webp",
-    "/gallery/FotoSC2.webp",
-    "/gallery/FotoSC3.webp",
-    "/gallery/FotoSC4.webp",
-    "/gallery/FotoSC5.webp",
-    "/gallery/academicaffairsdivision1.webp",
-    "/gallery/computernetworkpracticumassistant2.webp",
-    "/gallery/dataentryassistant1.webp",
-    "/gallery/delegateaiesecfutureleaders20241.webp",
-    "/gallery/environmentalhygieneteam1.webp",
-    "/gallery/environmentalhygieneteam2.webp",
-    "/gallery/logisticsoperatorcampusexpo20242.webp",
-    "/gallery/researchassistant1.webp",
-    "/gallery/researchassistant2.webp"
+    "/project/mathrubhumi-hero.webp",
+    "/dipc-light.svg",
+    "/dipc-dark.svg"
 ];
 
 const AboutLeadInImageStack = () => {

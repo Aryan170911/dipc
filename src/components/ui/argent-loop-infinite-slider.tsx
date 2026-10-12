@@ -16,44 +16,20 @@ interface ProjectData {
 
 const PROJECT_DATA: ProjectData[] = [
   {
-    title: "Browser Automation Agent",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&fm=webp",
-    category: "AI & Automation",
+    title: "Websites & Web Apps",
+    image: "/dipc-light.svg",
+    category: "Web Development",
     year: "2026",
-    description: "AI-driven browser interaction & testing engine.",
-    slug: "browser-automation-agent"
+    description: "Fast, mobile-first business sites with lead capture built in.",
+    slug: "dipc-websites-web-apps"
   },
   {
-    title: "Swarm AI Blog Writer",
-    image: "/project/swarmaiblogwriter1.webp",
-    category: "AI & Content",
-    year: "2025",
-    description: "Multi-agent orchestration for research-backed content.",
-    slug: "swarm-ai-blog-writer"
-  },
-  {
-    title: "Creative Portfolio Website",
-    image: "/project/creativeportfoliowebsite1.webp",
-    category: "Creative Tech",
-    year: "2025",
-    description: "Immersive 3D portfolio with WebGL shaders.",
-    slug: "creative-portfolio-website"
-  },
-  {
-    title: "SNBTIn Platform",
-    image: "/project/snbtinplatformpersiapansnbt20251.webp",
-    category: "EdTech",
-    year: "2025",
-    description: "Leading e-learning platform for SNBT preparation.",
-    slug: "snbtin-platform"
-  },
-  {
-    title: "Terraflow Platform",
-    image: "/project/terraflowplatform1.webp",
-    category: "IoT & Embedded",
-    year: "2025",
-    description: "Enterprise IoT solution for precision agriculture.",
-    slug: "terraflow-platform"
+    title: "Mathrubhumi Enterprises Site",
+    image: "/project/mathrubhumi-hero.webp",
+    category: "Flagship Delivery",
+    year: "2026",
+    description: "Corporate site with animated UI and database-backed lead capture.",
+    slug: "mathrubhumi-steel-website"
   },
 ];
 
