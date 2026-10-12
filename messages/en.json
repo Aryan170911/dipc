@@ -9,7 +9,7 @@
         "blog": "Blog",
         "gallery": "Gallery",
         "contact": "Contact",
-        "resume": "Resume",
+        "resume": "Profile",
         "tools": "Tools",
         "menu": {
             "achievements": "Achievements",
@@ -376,7 +376,7 @@
         "madeWith": "Made with",
         "more": "More",
         "marquee": [
-            "Open to Opportunities",
+            "Open for Projects",
             "Frontend Development",
             "Backend Architecture",
             "UI/UX Design",

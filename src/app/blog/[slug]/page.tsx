@@ -661,7 +661,7 @@ model.save_pretrained_gguf("model_name", tokenizer, quantization_method = "q4_k_
                                             </div>
                                             <div>
                                                 <div className="text-foreground">{post.author.name}</div>
-                                                <div className="text-muted-foreground text-xs font-normal">AI Architect</div>
+                                                <div className="text-muted-foreground text-xs font-normal">DIPC Team</div>
                                             </div>
                                         </footer>
                                     </blockquote>

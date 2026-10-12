@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: 'Projects',
-    description: 'Explore my portfolio of projects and work.',
+    description: 'Explore our services and client work.',
 };
 
 export default function ProjectsLayout({

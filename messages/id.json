@@ -9,17 +9,17 @@
         "blog": "Blog",
         "gallery": "Galeri",
         "contact": "Kontak",
-        "resume": "Resume",
+        "resume": "Profil",
         "tools": "Peralatan",
         "menu": {
             "achievements": "Pencapaian",
             "achievementsDesc": "Sertifikasi, penghargaan, dan pencapaian",
             "skills": "Keahlian",
-            "skillsDesc": "Teknologi dan alat yang saya gunakan",
+            "skillsDesc": "तकनीक और टूल्स जिनका हम इस्तेमाल करते हैं",
             "experience": "Pengalaman",
-            "experienceDesc": "Perjalanan profesional dan pertumbuhan saya",
+            "experienceDesc": "हमारी कंपनी की यात्रा और विकास",
             "projects": "Proyek",
-            "projectsDesc": "Pameran semua karya saya",
+            "projectsDesc": "हमारे काम का प्रदर्शन",
             "blog": "Blog",
             "blogDesc": "Pemikiran dan eksplorasi teknis",
             "gallery": "Galeri",
@@ -35,74 +35,74 @@
         }
     },
     "hero": {
-        "greeting": "Selamat datang di ruang digital saya",
-        "subtitle": "Full Stack Developer • AI Engineer • Data Scientist",
+        "greeting": "DIPC में आपका स्वागत है",
+        "subtitle": "Websites • AI Chatbots • Automation",
         "cta": {
             "primary": "Jelajahi Proyek",
             "secondary": "Hubungi Saya",
             "exploreMore": "Jelajahi Lebih Lanjut"
         },
-        "badge": "Terbuka untuk peluang",
+        "badge": "प्रोजेक्ट्स के लिए उपलब्ध",
         "scroll": "Gulir ke Bawah",
-        "role": "Software Engineer",
-        "description": "Membangun sistem cerdas di persimpangan <span class='text-primary font-semibold'>AI</span>, <span class='text-secondary font-semibold'>Rekayasa</span>, dan <span class='text-accent font-semibold'>Arsitektur Skalabel</span>."
+        "role": "AI सॉल्यूशंस कंपनी",
+        "description": "हम <span class='text-primary font-semibold'>Web</span>, <span class='text-secondary font-semibold'>AI Chat</span> और <span class='text-accent font-semibold'>Automation</span> के संगम पर व्यावहारिक सिस्टम बनाते हैं।"
     },
     "about": {
-        "title": "Tentang Saya",
-        "subtitle": "Tech Explorer & Problem Solver",
-        "description": "Seorang tech explorer yang bersemangat dengan spesialisasi dalam Full Stack Development, Artificial Intelligence, dan Data Science. Saat ini sedang mendalami AI Agents dan teknologi Blockchain.",
+        "title": "DIPC के बारे में",
+        "subtitle": "Websites, Chatbots & Automation",
+        "description": "Digital India Promotion Company भारतीय उद्यमों और संस्थानों के लिए websites, AI chatbots और business automation बनाती है।",
         "stats": {
-            "experience": "Tahun Belajar",
-            "projects": "Proyek Selesai",
-            "certifications": "Sertifikasi",
-            "competitions": "Kompetisi"
+            "experience": "सेवा के वर्ष",
+            "projects": "पूरे किए गए प्रोजेक्ट",
+            "certifications": "तकनीकें",
+            "competitions": "लाइव ऑटोमेशन"
         },
         "identity": "Tautan Identitas Dibuat",
         "architecting": "Merancang",
         "digitalReality": "Realitas Digital",
         "leadIn": {
-            "label": "APA YANG SAYA LAKUKAN",
+            "label": "हम क्या करते हैं",
             "tagline": "FOKUS INTI",
             "headlineAI": "AI Terapan.",
             "headlineData": "Data Skalabel.",
             "headlineSoftware": "Rekayasa Perangkat Lunak Tangguh",
-            "thesis": "Saya membangun sistem cerdas dan <span class='text-primary italic font-serif-elegant font-normal'>infrastruktur data</span> yang membuatnya handal dalam skala besar.",
-            "scope": "Berfokus pada model prediktif, pemrosesan data yang dioptimalkan, dan pipeline RAG yang dirancang untuk lingkungan produksi dan performa terukur.",
+            "thesis": "हम व्यावहारिक business systems और <span class='text-primary italic font-serif-elegant font-normal'>lead capture</span> बनाते हैं जो उनकी कीमत वसूल कराता है।",
+            "scope": "बिज़नेस websites, आपके कंटेंट से जवाब देने वाले chatbots, और असली दफ्तरों व नापे जा सकने वाले नतीजों के लिए बनाए गए automations पर ध्यान।",
             "bridging": "Menghubungkan lab dan sistem langsung.",
             "integration": "Selain model, saya merancang ekosistem full-stack: backend yang aman, arsitektur data yang kuat, dan pipeline yang skalabel.",
-            "signature": "Azril",
-            "role": "AI, Data & Software Engineer",
-            "aboutMe": "Tentang Saya",
+            "signature": "DIPC",
+            "role": "AI सॉल्यूशंस कंपनी",
+            "aboutMe": "DIPC के बारे में",
             "scroll": "Scroll untuk Jelajah",
-            "shortStory": "Cerita Singkat Saya"
+            "shortStory": "हमारी कहानी"
         },
         "coreEngineering": {
             "label": "Rekayasa Inti",
             "title": "<span class='text-primary italic font-serif font-light lowercase'>stack</span> yang Terbukti. <br /> <span class='italic font-serif font-light text-foreground'>hasil</span> yang Terukur.",
-            "p1": "Saya mengembangkan sistem AI terapan menggunakan TensorFlow, Scikit-learn, dan LangChain, menyusun alur kerja dan mengekspos model sebagai layanan melalui Flask dan FastAPI.",
-            "p2": "Diintegrasikan ke dalam aplikasi full-stack dengan Next.js, Express.js, dan Spring Boot, didukung oleh PostgreSQL dan Prisma ORM.",
-            "p3": "Semua proyek menggunakan kontrol versi yang disiplin, kontainerisasi Docker, dan dibangun untuk penerapan produksi yang stabil.",
+            "p1": "हम आधुनिक AI टूलिंग से chatbots और assistants बनाते हैं, उन्हें websites, WhatsApp और Telegram से जोड़ते हैं।",
+            "p2": "Websites और web apps Next.js और Node.js पर चलते हैं, भरोसेमंद backups वाले PostgreSQL के साथ।",
+            "p3": "हर delivery disciplined version control इस्तेमाल करती है और स्थिर, बिना-झंझट production के लिए बनती है।",
             "gpa": "IPK Akademik",
             "projects": "Proyek yang Dibangun",
             "years": "Tahun Pengalaman"
         },
         "emergingResearch": {
-            "label": "Fase Eksplorasi",
-            "title": "RISET YANG MUNCUL <span class='italic font-serif font-light text-primary lowercase'>&</span> EKSPANSI",
+            "label": "लगातार सुधार",
+            "title": "लगातार सुधार <span class='italic font-serif font-light text-primary lowercase'>और</span> विस्तार",
             "agentic": {
-                "title": "SISTEM AI AGENTIK",
-                "desc": "Menjelajahi agen otonom, orkestrasi multi-agen, dan kerangka kerja penalaran — memperluas fondasi AI terapan saya ke dalam sistem pengambilan keputusan mandiri."
+                "title": "बेहतर चैटबॉट्स",
+                "desc": "Client content से सटीक जवाब, बेहतर lead capture और आसान human handover — हमारे bots हर महीने ज़्यादा मददगार बनते हैं।"
             },
             "web3": {
-                "title": "WEB3 & BLOCKCHAIN",
-                "desc": "Membangun aplikasi terdesentralisasi dengan Solidity dan Hardhat. Saat ini sedang mengerjakan pengembangan smart contract melalui proyek-proyek seperti Web3 Guestbook DApp di Ethereum."
+                "title": "गहरा ऑटोमेशन",
+                "desc": "ज़्यादा office workflows automated: follow-ups, reminders, reports और app integrations — सब उन्हीं tools में जो टीमें पहले से इस्तेमाल करती हैं।"
             }
         },
         "profile": {
             "title": "Membangun <br class='hidden lg:block' /> Sistem Skalabel <br /> Tempat <span class='text-primary italic font-serif font-light lowercase'>Kecerdasan</span> <br /> Bertemu Rekayasa.",
             "narrativeLabel": "Narasi Inti",
-            "narrative": "Sebagai mahasiswa Teknologi Informasi yang berfokus pada Kecerdasan Buatan dan Rekayasa Perangkat Lunak, saya membangun sistem yang menjembatani fondasi riset dengan implementasi siap produksi.",
-            "narrative2": "Pekerjaan saya memadukan pemikiran algoritmik, rekayasa backend, dan arsitektur yang skalabel untuk menghadirkan solusi yang cerdas, andal, dan siap digunakan di dunia nyata.",
+            "narrative": "Digital India Promotion Company भारतीय उद्यमों और संस्थानों के लिए websites, AI chatbots और business automation बनाती है — व्यावहारिक सिस्टम, fixed quotes, zero hidden costs।",
+            "narrative2": "हमारा काम स्पष्ट संवाद, मज़बूत engineering और ईमानदार pricing को जोड़ता है ताकि ऐसे solutions मिलें जो उपयोगी, भरोसेमंद हों और असली दुनिया में असर डालें।",
             "pillars": {
                 "reliable": {
                     "title": "Robust by Design",
@@ -137,51 +137,51 @@
             },
             "experiencesList": [
                 {
-                    "company": "Dicoding Academy",
-                    "role": "PENGULAS KODE MACHINE LEARNING",
-                    "desc": "Evaluasi teknis dan penjaminan kualitas pengajuan proyek ML. Memvalidasi kebenaran logis, efisiensi, dan menegakkan praktik terbaik industri bagi peserta."
+                    "company": "DIPC की स्थापना",
+                    "role": "कंपनी माइलस्टोन",
+                    "desc": "पहले दिन से fixed quotes, preview links और client ownership।"
                 },
                 {
-                    "company": "Advanced Software Engineering Laboratory",
-                    "role": "MAGANG ANALIS SISTEM",
-                    "desc": "Menerjemahkan persyaratan kompleks ke dalam dokumentasi SRS dan merancang arsitektur sistem menggunakan diagram UML. Rekayasa kolaboratif yang berfokus pada desain perangkat lunak yang kuat."
+                    "company": "कृषि सेवा डेमो स्टोर",
+                    "role": "पहला क्लाइंट कार्य",
+                    "desc": "किसान-केंद्रित commerce के लिए डेमो web-store — हमारा e-commerce ब्लूप्रिंट।"
                 },
                 {
-                    "company": "Cyber Physical System Laboratory",
-                    "role": "ASISTEN PENELITI (KONTRAK)",
-                    "desc": "Mengembangkan produk riset berbasis AI dan merancang materi pembelajaran untuk Deep Learning and Computer Vision. Berkontribusi dalam inisiatif riset kolaboratif dalam sistem cerdas."
+                    "company": "AI सेवाओं की शुरुआत",
+                    "role": "नई सेवाएं",
+                    "desc": "Menu में chatbots, chat-platform bots और office automation शामिल।"
                 },
                 {
-                    "company": "Pusat Riset HUMIC Engineering",
-                    "role": "MAGANG PENGEMBANG AI",
-                    "desc": "Membangun model deteksi serangan berbasis Transformer untuk aplikasi keamanan siber. Mengelola dataset skala besar melalui pipeline ML penuh — dari prapemprosesan hingga optimasi hiperparameter."
+                    "company": "Mathrubhumi साइट लाइव",
+                    "role": "फ्लैगशिप डिलीवरी",
+                    "desc": "Animated UI और database-backed lead capture वाली corporate site।"
                 },
                 {
-                    "company": "Cyber Physical System Laboratory",
-                    "role": "MAGANG PENELITI COMPUTER VISION",
-                    "desc": "Pengembangan model cerdas end-to-end menggunakan arsitektur Deep Learning terkini. Menerapkan algoritma ML untuk aplikasi AIoT dunia nyata termasuk sistem estimasi pose manusia."
+                    "company": "Care Plans",
+                    "role": "निरंतर सपोर्ट",
+                    "desc": "हमारी हर delivery के लिए monthly updates, backups और priority support।"
                 }
             ],
             "projectsList": [
                 {
-                    "title": "Creative Portfolio Website",
-                    "desc": "Portofolio modern dan beranimasi dengan elemen 3D, interaksi simulasi fisika, dan efek warp berbasis shader. Direkayasa untuk performa tinggi dan pengalaman pengguna yang imersif."
+                    "title": "Websites & Web Apps",
+                    "desc": "Lead capture के साथ तेज़, mobile-first business sites — landing pages से पूरे stores तक।"
                 },
                 {
-                    "title": "SNBTIn - Platform Persiapan SNBT 2025",
-                    "desc": "Platform EdTech terkemuka di Indonesia untuk persiapan ujian. Menampilkan ekosistem pembelajaran komprehensif dengan video interaktif, latihan soal, dan analitik real-time."
+                    "title": "AI Chatbots & Assistants",
+                    "desc": "Client content पर trained bots जो तुरंत जवाब दें, leads पकड़ें और humans को handover करें।"
                 },
                 {
-                    "title": "TerraFlow Platform",
-                    "desc": "Solusi IoT perusahaan untuk pertanian presisi. Node sensor ESP32 berkomunikasi langsung dengan Firebase melalui backend Go (Gin), dengan dashboard Next.js untuk monitoring real-time dan kontrol aktuator."
+                    "title": "Business Process Automation",
+                    "desc": "Follow-ups, reminders, data sync और reports — उन्हीं tools में जो टीमें पहले से इस्तेमाल करती हैं।"
                 },
                 {
-                    "title": "DocsInsight Engine",
-                    "desc": "Platform RAG privat untuk analisis dokumen cerdas. Didukung oleh LLM lokal melalui Ollama, dengan orkestrasi LangChain dan ChromaDB vector search — sepenuhnya self-hosted untuk privasi data."
+                    "title": "WhatsApp & Telegram Bots",
+                    "desc": "Official business APIs पर ordering, support और broadcasts — कोई risky shortcuts नहीं।"
                 },
                 {
-                    "title": "Manajemen Dental POLABDC",
-                    "desc": "SaaS klinik gigi bertenaga AI dengan prediksi penyakit, manajemen antrean real-time, dan arsitektur Monorepo yang menghubungkan Next.js, Express.js, dan microservice AI Python."
+                    "title": "Mathrubhumi Enterprises Site",
+                    "desc": "Flagship corporate delivery: animated UI, local asset pack, database-backed quote form।"
                 }
             ],
             "discoverMore": "Temukan Lebih Lanjut"
@@ -189,7 +189,7 @@
     },
     "projects": {
         "title": "Proyek",
-        "subtitle": "Showcase karya kreatif dan teknis saya",
+        "subtitle": "हमारी services और client work का प्रदर्शन",
         "search": "Cari proyek...",
         "viewAll": "Lihat Semua Proyek",
         "viewProject": "Lihat Proyek",
@@ -237,11 +237,11 @@
     },
     "experience": {
         "title": "Pengalaman",
-        "subtitle": "Perjalanan profesional dan perkembangan saya",
+        "subtitle": "हमारी कंपनी की यात्रा और milestones",
         "showDetail": "Tampilkan Detail",
         "hideDetail": "Sembunyikan Detail",
         "tasks": "TUGAS",
-        "learned": "APA YANG SAYA PELAJARI",
+        "learned": "हम क्या देते हैं",
         "impact": "DAMPAK",
         "present": "Sekarang",
         "responsibilities": "Tanggung Jawab",
@@ -271,12 +271,12 @@
     },
     "expertise": {
         "title": "Kapabilitas Inti",
-        "subtitle": "Spesialisasi dalam teknologi mutakhir yang mendukung pengalaman digital modern",
+        "subtitle": "व्यावहारिक क्षमताएं जो websites, chatbots और automations को ताकत देती हैं",
         "dragHint": "Geser atau gulir untuk menjelajah"
     },
     "skills": {
         "title": "Keahlian & Tools",
-        "subtitle": "Teknologi dan tools yang saya gunakan",
+        "subtitle": "तकनीकें और tools जिनसे हम बनाते हैं",
         "hard": "Keahlian Teknis",
         "soft": "Soft Skills",
         "tools": "Tools & Software",
@@ -298,7 +298,7 @@
         }
     },
     "contact": {
-        "title": "Hubungi Saya",
+        "title": "संपर्क करें",
         "subtitle": "Mari membangun sesuatu yang luar biasa bersama",
         "form": {
             "name": "Nama Anda",
@@ -323,36 +323,36 @@
             "email": "Email",
             "phone": "Telepon",
             "location": "Lokasi",
-            "availability": "Terbuka untuk kesempatan"
+            "availability": "प्रोजेक्ट्स के लिए उपलब्ध"
         },
         "hero": {
             "title": "MARI BICARA",
-            "subtitle": "Punya ide? Mari bangun sesuatu yang luar biasa bersama.",
+            "subtitle": "कोई website, chatbot या automation चाहिए? हमें काम बताइए।",
             "ticker": {
                 "build": "Mari Bangun Sesuatu yang Luar Biasa · ",
-                "freelance": "Tersedia untuk Freelance · "
+                "freelance": "प्रोजेक्ट्स के लिए उपलब्ध · "
             }
         },
         "faqData": [
             {
-                "q": "Apa bidang keahlian utama Anda?",
-                "a": "Sebagai mahasiswa Teknologi Informasi di Telkom University dan Asisten Peneliti di Laboratorium Cyber Physical System, saya berspesialisasi dalam persimpangan Kecerdasan Buatan (Computer Vision & Deep Learning), Full-stack Development (Next.js & Node.js), dan teknologi Blockchain/Web3 yang sedang berkembang."
+                "q": "DIPC की मुख्य विशेषज्ञता क्या है?",
+                "a": "DIPC business websites, AI chatbots और assistants, WhatsApp और Telegram bots, और office automation में माहिर है — सब fixed quotes और human support के साथ।"
             },
             {
-                "q": "Apakah Anda tersedia untuk kolaborasi riset atau freelance?",
-                "a": "Tentu saja. Saat ini saya aktif dalam riset AI di CPS Lab dan Pusat Riset HUMIC, tetapi saya selalu terbuka untuk proyek freelance inovatif, magang, atau kolaborasi teknis yang menjembatani inovasi dengan eksekusi strategis."
+                "q": "हम साथ कैसे काम शुरू करें?",
+                "a": "बिल्कुल। Quote form से requirement भेजें या admin@dipc.site पर email करें — हम next steps और fixed price के साथ जवाब देते हैं।"
             },
             {
-                "q": "Apa tech stack tipikal Anda untuk produksi?",
-                "a": "Untuk proyek AI, saya menggunakan Python dengan TensorFlow, PyTorch, dan YOLO. Untuk aplikasi web, andalan saya adalah stack T3: Next.js, TypeScript, dan Tailwind CSS, sering kali diintegrasikan dengan Agen AI atau Smart Contracts jika sesuai."
+                "q": "Production के लिए आपका typical tech stack क्या है?",
+                "a": "Websites Next.js, React और Tailwind CSS पर चलती हैं। Chatbots LangChain के साथ आधुनिक AI tooling इस्तेमाल करते हैं। Bots official WhatsApp और Telegram business APIs पर चलते हैं, PostgreSQL databases और backups के साथ।"
             },
             {
-                "q": "Apakah Anda memiliki pengalaman dengan proyek enterprise atau lab?",
-                "a": "Ya, saya pernah menjabat sebagai System Analyst dan Pengembang AI di berbagai lingkungan berbasis riset. Saya telah merancang mulai dari platform AIoT dan sistem deteksi serangan hingga modul praktikum siswa untuk audiens global."
+                "q": "क्या आपको enterprise या institutional projects का अनुभव है?",
+                "a": "हाँ। Krishi Sewa Foundation के लिए हमारा web-store कार्य और Mathrubhumi Enterprises की corporate site institutional delivery के ताज़ा उदाहरण हैं।"
             },
             {
-                "q": "Bagaimana cara memulai kemitraan atau proyek?",
-                "a": "Cara paling efisien adalah menggunakan formulir kontak di atas atau menghubungi langsung melalui email di admin@dipc.site. Saya biasanya dapat merespons dalam waktu 24 jam untuk mendiskusikan bagaimana keterampilan teknis saya dapat memberikan nilai tambah bagi inisiatif Anda."
+                "q": "Partnership या project कैसे शुरू करें?",
+                "a": "सबसे तेज़ तरीका ऊपर दिया contact form है, या सीधे admin@dipc.site पर email करें। हम आमतौर पर 24 घंटों में next steps और fixed quote के साथ जवाब देते हैं।"
             }
         ]
     },
@@ -378,14 +378,14 @@
     },
     "projectHeader": {
         "title": "Merancang Realitas Digital",
-        "subtitle": "Pameran kurasi inovasi teknis dan rekayasa kreatif. Menjelajahi batas-batas <span class='font-bold text-foreground'>Kecerdasan Buatan</span>, Blockchain, Data, dan pengalaman Web Imersif."
+        "subtitle": "व्यावहारिक business systems का curated प्रदर्शन। <span class='font-bold text-foreground'>असली offices</span>, असली customers और असली नतीजों के लिए बने websites, chatbots और automations।"
     },
     "footer": {
         "copyright": "Hak cipta dilindungi.",
         "madeWith": "Dibuat dengan",
         "more": "Lainnya",
         "marquee": [
-            "Terbuka untuk Peluang",
+            "प्रोजेक्ट्स के लिए उपलब्ध",
             "Pengembangan Frontend",
             "Arsitektur Backend",
             "Desain UI/UX",
@@ -406,17 +406,17 @@
     "ctaSection": {
         "title": "Mari Membangun Sesuatu yang",
         "together": "Bersama",
-        "subtitle": "Terbuka untuk kolaborasi strategis dalam pengembangan sistem berbasis AI dan rekayasa full stack yang skalabel. Mari kita transformasikan ide ambisius menjadi solusi siap produksi.",
-        "start": "Hire Me",
-        "work": "View My Resume",
+        "subtitle": "कोई website, chatbot चाहिए या repetitive office work से छुटकारा? हमें काम बताइए — हम fixed quote के साथ जवाब देते हैं।",
+        "start": "Quote पाएं",
+        "work": "हमारा काम देखें",
         "words": {
             "amazing": "Luar Biasa",
             "innovative": "Inovatif",
             "intelligent": "Cerdas",
             "creative": "Kreatif"
         },
-        "ribbon1": "Next.js • React • Python • PyTorch • Pandas • TypeScript • Node.js • Scikit-Learn • TensorFlow • SQL",
-        "ribbon2": "Software Engineer • AI Engineer • Data Scientist • Data Analyst • Machine Learning Engineer • Backend Developer • Full Stack Engineer • NLP Engineer • Data Engineer • Web Developer"
+        "ribbon1": "Next.js • React • JavaScript • Python • LangChain • WhatsApp API • Telegram API • PostgreSQL • Tailwind CSS • Node.js",
+        "ribbon2": "Websites • AI Chatbots • Automation • WhatsApp Bots • Lead Systems • E-commerce • Care Plans"
     },
     "common": {
         "loading": "Memuat...",
@@ -433,7 +433,7 @@
     "technical": {
         "github": {
             "title": "Kontribusi GitHub",
-            "description": "Aktivitas GitHub saya selama setahun terakhir.",
+                "description": "पिछले एक साल की हमारी GitHub activity।",
             "total": "Total",
             "thisWeek": "Minggu Ini",
             "best": "Terbaik",
@@ -456,7 +456,7 @@
     },
     "blog": {
         "title": "Pemikiran & Eksplorasi",
-        "subtitle": "Menjembatani kesenjangan antara kompleksitas teknis dan implementasi praktis. Kumpulan wawasan tentang AI, Web3, dan Software Engineering.",
+        "subtitle": "Websites, AI chatbots, automation और online business चलाने पर व्यावहारिक notes।",
         "sectionBadge": "Digital Archive",
         "search": "Cari artikel...",
         "readTime": "menit baca",
@@ -466,7 +466,7 @@
         "categories": {
             "applied-ai": "Applied AI",
             "software-development": "Software Dev",
-            "about-me": "About Me",
+            "about-me": "DIPC के बारे में",
             "more": "More"
         }
     },
@@ -482,14 +482,14 @@
     },
     "chatbot": {
         "title": "Asisten AI",
-        "subtitle": "Tanya saya tentang Azril",
+        "subtitle": "DIPC के बारे में पूछें",
         "placeholder": "Ketik pesan...",
-        "greeting": "Halo! Saya asisten AI untuk **{name}**. 👋\n\nSaya bisa menjawab pertanyaan seputar:\n- Skill & keahlian teknis\n- Project dan karya\n- Pengalaman kerja\n- Pendidikan\n- Dan info lainnya!\n\nAda yang ingin kamu tanyakan?",
+        "greeting": "नमस्ते! मैं DIPC assistant हूँ। 👋\n\nमैं इन बारे में बता सकता हूँ:\n- Services और pricing\n- Projects और कार्य\n- Company journey\n- Support और care plans\n\nआप क्या जानना चाहेंगे?",
         "suggestions": [
-            "Apa keahlian utama kamu?",
-            "Ceritakan project terbaik kamu",
-            "Apa pengalaman kerja kamu?",
-            "Skill AI apa yang kamu kuasai?"
+            "आपकी services क्या हैं?",
+            "Mathrubhumi project के बारे में बताइए",
+            "Website की कीमत कितनी है?",
+            "क्या launch के बाद support मिलता है?"
         ],
         "error": "Terjadi kesalahan. Silakan coba lagi.",
         "invalidResponse": "Respons tidak valid dari server.",

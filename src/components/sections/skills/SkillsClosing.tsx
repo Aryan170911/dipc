@@ -82,7 +82,7 @@ export const SkillsClosing = () => {
 
                         <p className="text-base md:text-lg text-muted-foreground/70 max-w-lg leading-relaxed font-medium">
                             Precision engineering meets <span className="text-foreground font-bold underline decoration-primary/30 underline-offset-4">unbound imagination</span>.
-                            Let's transform ambitious ideas into production-ready solutions and construct a legacy of innovation.
+                            Let's transform ambitious ideas into working websites, chatbots and automations your customers will love.
                         </p>
                     </motion.div>
 

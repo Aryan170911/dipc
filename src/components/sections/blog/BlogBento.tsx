@@ -21,21 +21,21 @@ export const BlogBento = () => {
                     {/* Header Block - Left Side */}
                     <Block className="col-span-12 md:col-span-4">
                         <img
-                            src="https://api.dicebear.com/8.x/lorelei-neutral/svg?seed=John"
-                            alt="avatar"
-                            className="mb-3 size-12 rounded-full"
+                            src="/dipc-light.svg"
+                            alt="DIPC"
+                            className="mb-3 size-12 rounded-full bg-white p-1 dark:bg-zinc-900"
                         />
                         <h1 className="mb-4 text-xl font-medium leading-tight">
-                            Hi, I'm Tom.{" "}
+                            Hi, we are DIPC.{" "}
                             <span className="text-muted-foreground">
-                                I build cool websites like this one.
+                                We build websites, chatbots and automation for Indian businesses.
                             </span>
                         </h1>
                         <a
                             href={`mailto:${portfolioData.personal.email}`}
                             className="flex items-center gap-1 text-red-400 hover:underline text-sm"
                         >
-                            Contact me <FiArrowRight />
+                            Contact us <FiArrowRight />
                         </a>
                     </Block>
 
@@ -101,11 +101,10 @@ export const BlogBento = () => {
                     {/* About Block */}
                     <Block className="col-span-12 text-base leading-relaxed">
                         <p>
-                            <span className="text-foreground font-medium">My passion is building innovative solutions.</span>{" "}
+                            <span className="text-foreground font-medium">Our passion is building useful business systems.</span>{" "}
                             <span className="text-muted-foreground">
-                                An AI Engineer and Full Stack Developer with expertise in architecting intelligent systems that combine Machine Learning, IoT infrastructure, and Web3 technologies.
-                                Currently focused on advancing AI Agent frameworks and exploring decentralized blockchain applications, bridging the gap between cutting-edge research and practical implementation.
-                                Experienced in designing scalable software architectures and engineering complex technical solutions from concept to deployment.
+                                DIPC is an AI solutions company building websites, chatbots and office automation for Indian enterprises and institutions.
+                                Every delivery comes with fixed quotes, human support and full client ownership.
                             </span>
                         </p>
                     </Block>
@@ -118,7 +117,7 @@ export const BlogBento = () => {
 
                     {/* Newsletter Block */}
                     <Block className="col-span-12 md:col-span-9" id="newsletter">
-                        <p className="mb-3 text-base">Join my mailing list</p>
+                        <p className="mb-3 text-base">Join our mailing list</p>
                         <form
                             onSubmit={(e) => e.preventDefault()}
                             className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2"

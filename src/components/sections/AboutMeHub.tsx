@@ -90,21 +90,21 @@ export default function AboutMeHub() {
         {
             title: "Competency",
             subtitle: "Tech Stack & Soft Skills",
-            description: "A comprehensive matrix of my technical arsenal from AI/ML research to enterprise full-stack architectures.",
+            description: "A comprehensive matrix of our capabilities, from websites and chatbots to office automation.",
             href: "/skills",
             icon: Cpu
         },
         {
             title: "Trajectory",
             subtitle: "Professional Journey",
-            description: "A detailed timeline of my evolution within CPS Lab, HUMIC Engineering, and high-impact industrial roles.",
+            description: "A detailed timeline of our company milestones and client deliveries.",
             href: "/experience",
             icon: Briefcase
         },
         {
             title: "Production",
             subtitle: "Featured Engineering",
-            description: "Deep-dives into my most significant builds across AI systems, Web3 protocols, and enterprise SaaS.",
+            description: "Deep-dives into our services and flagship builds like the Mathrubhumi corporate site.",
             href: "/projects",
             icon: Rocket
         },

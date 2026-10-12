@@ -196,12 +196,12 @@ function JourneyContent() {
             className="space-y-8"
         >
             <div className="space-y-2">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                    Changelog from my journey
-                </h2>
-                <p className="text-muted-foreground max-w-lg">
-                    I've been working on various projects and roles. Here's a timeline of my professional journey.
-                </p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                        Changelog from our journey
+                    </h2>
+                    <p className="text-muted-foreground max-w-lg">
+                        Milestones, deliveries and company growth — here is the DIPC timeline.
+                    </p>
             </div>
 
             <div className="space-y-12">

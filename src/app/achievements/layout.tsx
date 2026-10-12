@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: 'Achievements',
-    description: 'My certifications, awards, and accomplishments.',
+    description: 'Company credentials, milestones and recognition.',
 };
 
 export default function AchievementsLayout({

@@ -19,7 +19,7 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
         <div className="w-full max-w-6xl mx-auto p-4 md:p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 
-                {/* Telkom University Box (Left) - Hover Effect: Translate Y & Blue Glow */}
+                {/* DIPC Foundations Box (Left) - Hover Effect: Translate Y & Blue Glow */}
                 <motion.div 
                     initial={isLowPowerMode ? {} : { opacity: 0, y: 20 }}
                     whileInView={isLowPowerMode ? {} : { opacity: 1, y: 0 }}
@@ -31,11 +31,11 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                     {/* Text Section (Top) */}
                     <div className="p-8 relative z-10 transition-transform duration-500 group-hover:translate-x-1">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold uppercase tracking-widest text-neutral-500 dark:text-neutral-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Higher Education • Current</span>
+                            <span className="text-xs font-bold uppercase tracking-widest text-neutral-500 dark:text-neutral-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Who We Are • Since Day One</span>
                         </div>
-                        <h3 className="text-3xl font-black text-neutral-900 dark:text-white mb-4">Telkom University</h3>
+                        <h3 className="text-3xl font-black text-neutral-900 dark:text-white mb-4">Digital India Promotion Company</h3>
                         <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                            Information Technology major with a GPV of 3.8/4.0. Focused on AI Engineering and Systems Research. Active in multiple high-impact research laboratories and national competitions.
+                            Websites, AI chatbots and business automation for Indian enterprises. Fixed quotes, preview links and client ownership on every project.
                         </p>
                     </div>
 
@@ -44,8 +44,8 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                         {/* Background Logo */}
                         <div className="absolute inset-0">
                             <Image
-                                src="/assets/TelkomUniversityLogo.webp?v=3"
-                                alt="Telkom University"
+                                src="/dipc-light.svg?v=1"
+                                alt="DIPC"
                                 fill
                                 className="object-cover opacity-20 dark:opacity-30 blur-[2px] scale-125 group-hover:scale-110 transition-transform duration-700"
                                 unoptimized
@@ -65,7 +65,7 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                             </div>
 
                             <div className="flex flex-wrap gap-2 justify-center mb-4">
-                                {["GPA 3.8", "AI Researcher", "IT Major"].map(s => (
+                                {["Fixed Quotes", "AI Chatbots", "Websites"].map(s => (
                                     <span key={s} className="px-3 py-1 rounded-full text-[10px] bg-black/40 dark:bg-white/10 text-white border border-white/20 font-mono font-bold backdrop-blur-md shadow-lg group-hover:bg-blue-600/50 transition-colors">
                                         {s}
                                     </span>

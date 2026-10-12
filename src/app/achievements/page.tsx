@@ -1031,7 +1031,7 @@ export default function AchievementsPage() {
                                 Technical Universe
                             </h2>
                             <p className="text-sm text-muted-foreground/60 max-w-lg mx-auto leading-relaxed">
-                                Interact with the core technologies and values that drive my research and development journey.
+                                Interact with the core technologies and values that drive our client work.
                             </p>
                         </motion.div>
 

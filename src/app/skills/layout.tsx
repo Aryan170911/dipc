@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: 'Skills',
-    description: 'My technical skills, tech stack, and tools I work with.',
+    description: 'Our capabilities, tech stack and tools.',
 };
 
 export default function SkillsLayout({

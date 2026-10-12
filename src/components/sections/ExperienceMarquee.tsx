@@ -142,16 +142,12 @@ function ParallaxText({ children, baseVelocity = 100, isLowPowerMode = false }: 
 }
 
 const GalleryItem = ({ logoSrc }: { logoSrc: string }) => {
-    // Only invert logos that are purely black text on transparent backgrounds in dark mode.
-    const needsInvertInDarkMode = logoSrc.includes("McKinsey") ||
-        logoSrc.includes("TelkomUniversity") ||
-        logoSrc.includes("softagelogo") ||
-        logoSrc.includes("dinas-pangan");
+    // Brand mark inverts in dark mode so it stays visible on both themes.
+    const needsInvertInDarkMode = logoSrc.includes("dipc-light");
 
-    const needsWhiteBgRemovalInDarkMode = logoSrc.includes("logobei") || logoSrc.includes("birulangit");
+    const needsWhiteBgRemovalInDarkMode = false;
 
-    // FlyRank is a white text logo, so it's invisible on light backgrounds. We invert it in Light Mode.
-    const needsInvertInLightMode = logoSrc.includes("flyrank") || logoSrc.includes("FlyRank");
+    const needsInvertInLightMode = false;
 
     let specificClasses = "";
     if (needsInvertInDarkMode) specificClasses = "dark:invert";
@@ -176,29 +172,18 @@ const GalleryItem = ({ logoSrc }: { logoSrc: string }) => {
 export default function ExperienceMarquee() {
     const { isLowPowerMode } = usePerformance();
     const allLogos = [
-        "/assets/DBSLogo.webp",
-        "/assets/HMITlogo.webp",
-        "/assets/HumicLogo.webp",
-        "/assets/McKinseylogo.webp",
-        "/assets/TelkomUniversityLogo.webp",
-        "/assets/aieseclogo.webp",
-        "/assets/aselablogo.webp",
-        "/assets/birulangitlogo.webp",
-        "/assets/cisometriclogo.webp",
-        "/assets/dicodinglogo.webp",
-        "/assets/dinas-pangan-dan-pertanian-kota-bandung.webp",
-        "/assets/flyrankailogo.webp",
-        "/assets/iflablogo.webp",
-        "/assets/indosat-ooredoo-hutchison-digital-camp.webp",
-        "/assets/logobei.webp",
-        "/assets/logocps.webp",
-        "/assets/logodigistar.webp",
-        "/assets/logogdsc.webp",
-        "/assets/microsotlogo.webp",
-        "/assets/sman88logo.webp",
-        "/assets/softagelogo.webp",
-        "/assets/yotlogo.webp",
-        "/assets/youth-ranger-indonesia.webp"
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg",
+        "/dipc-light.svg"
     ];
 
     // Balance rows: 12 in row 1, 11 in row 2

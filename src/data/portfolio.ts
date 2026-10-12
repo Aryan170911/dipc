@@ -409,37 +409,7 @@ export const portfolioData: PortfolioData = {
             ]
         }
     ],
-    education: [
-        {
-            id: 'edu-1',
-            institution: 'Telkom University',
-            degree: 'Bachelor of Technology',
-            major: 'Information Technology',
-            startDate: '2023-08-01',
-            isOngoing: true,
-            gpa: '3.8/4.0',
-            activities: ['GDSC ML Path', 'CPS Lab Researcher', 'HMIT Academic', 'Data Science Competitions'],
-            achievements: [
-                'ML Project Final Score: 92/100',
-                'Active in national data science competitions',
-                'Research Assistant at multiple laboratories',
-            ],
-        },
-        {
-            id: 'edu-2',
-            institution: 'SMAN 88 Jakarta',
-            degree: 'High School Diploma',
-            major: 'Science (IPA)',
-            startDate: '2020-06-01',
-            endDate: '2023-06-30',
-            isOngoing: false,
-            activities: ['Science Studies'],
-            achievements: [
-                'Strong foundation in mathematics and physics',
-                'Analytical thinking development',
-            ],
-        },
-    ],
+    education: [],
     achievements: [
         {
             id: 'ach-1',
