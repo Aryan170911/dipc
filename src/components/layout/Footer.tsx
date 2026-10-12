@@ -104,10 +104,10 @@ export function Footer() {
                 hour: 'numeric',
                 minute: '2-digit',
                 hour12: true,
-                timeZone: 'Asia/Jakarta'
+                timeZone: 'Asia/Kolkata'
             };
             const timeString = new Intl.DateTimeFormat('en-US', options).format(now);
-            // Jakarta is UTC+7
+            // Kolkata is UTC+5:30
             setLocalTime(`${timeString} UTC+7`);
         };
 
@@ -385,14 +385,9 @@ export function Footer() {
                                             <p className="text-zinc-900 dark:text-white text-[1.2vw] min-text-[14px] font-medium tracking-tight">
                                                 {localTime}
                                             </p>
-                                            <a
-                                                href="https://www.google.com/maps/place/Jakarta,+Indonesia"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="text-zinc-900 dark:text-white text-[1.2vw] min-text-[14px] font-medium tracking-tight hover:text-zinc-500 dark:hover:text-zinc-400 transition-colors inline-block"
-                                            >
-                                                Jakarta, Indonesia
-                                            </a>
+                                            <p className="text-zinc-900 dark:text-white text-[1.2vw] min-text-[14px] font-medium tracking-tight">
+                                                India
+                                            </p>
                                         </FooterColumn>
 
                                         <FooterColumn title={t('version')}>

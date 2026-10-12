@@ -81,7 +81,7 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                     </div>
                 </motion.div>
 
-                {/* SMAN 88 Box (Right) - Hover Effect: Scale & Orange Glow */}
+                {/* DIPC Process Box (Right) - Hover Effect: Scale & Orange Glow */}
                 <motion.div 
                     initial={isLowPowerMode ? {} : { opacity: 0, y: 20 }}
                     whileInView={isLowPowerMode ? {} : { opacity: 1, y: 0 }}
@@ -93,11 +93,11 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                     {/* Text Section (Top) */}
                     <div className="p-8 relative z-10 transition-transform duration-500">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold uppercase tracking-widest text-neutral-500 dark:text-neutral-400 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">Foundation • High School</span>
+                            <span className="text-xs font-bold uppercase tracking-widest text-neutral-500 dark:text-neutral-400 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">Process • Fixed & Transparent</span>
                         </div>
-                        <h3 className="text-3xl font-black text-neutral-900 dark:text-white mb-4">SMAN 88 Jakarta</h3>
+                        <h3 className="text-3xl font-black text-neutral-900 dark:text-white mb-4">Fixed Quote First</h3>
                         <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                            Science Major (IPA). Developed strong analytical foundations in Mathematics and Physics, shaping a logical approach to problem-solving and technical engineering.
+                            Preview links during build, corrections rounds, handover with training — the same transparent process on every project.
                         </p>
                     </div>
 
@@ -106,8 +106,8 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                          {/* Background Logo */}
                          <div className="absolute inset-0">
                             <Image
-                                src="/assets/sman88logo.webp"
-                                alt="SMAN 88 Jakarta"
+                                src="/dipc-light.svg?v=1"
+                                alt="DIPC"
                                 fill
                                 className="object-cover opacity-10 dark:opacity-15 blur-sm scale-125 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-700"
                                 unoptimized
@@ -126,13 +126,13 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                             </div>
 
                             <div className="flex flex-wrap gap-2 justify-center mb-4">
-                                {["Science Major", "Jakarta", "Foundation"].map(s => (
+                                {["Preview Links", "Fixed Quotes", "Handover"].map(s => (
                                     <span key={s} className="px-3 py-1 rounded-full text-[10px] bg-black/40 dark:bg-white/10 text-white border border-white/20 font-mono font-bold backdrop-blur-md shadow-lg group-hover:bg-orange-600/50 transition-colors">
                                         {s}
                                     </span>
                                 ))}
                             </div>
-                            <p className="text-[10px] font-mono text-white/90 uppercase tracking-widest bg-black/50 px-2 py-1 rounded backdrop-blur-sm border border-white/10 group-hover:border-orange-500/50 transition-colors">Logical Foundation</p>
+                            <p className="text-[10px] font-mono text-white/90 uppercase tracking-widest bg-black/50 px-2 py-1 rounded backdrop-blur-sm border border-white/10 group-hover:border-orange-500/50 transition-colors">Transparent Process</p>
                         </div>
                     </div>
                 </motion.div>

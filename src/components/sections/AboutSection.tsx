@@ -52,7 +52,7 @@ const showcaseMembers = [
         image: "/journey/aideveloperintern1.webp",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
-    // 3. Informatics Laboratory, Telkom University
+    // 3. DIPC delivery process
     ...portfolioData.experiences.filter(exp => exp.id === 'prof-6').map(exp => ({
         id: exp.id,
         name: exp.company,
@@ -62,7 +62,7 @@ const showcaseMembers = [
         image: "/journey/computernetworkpracticumassistant2.webp",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
-    // 4. Digistar Club by Telkom Indonesia
+    // 4. DIPC care plans
     ...portfolioData.experiences.filter(exp => exp.id === 'lead-2').map(exp => ({
         id: exp.id,
         name: exp.company,
