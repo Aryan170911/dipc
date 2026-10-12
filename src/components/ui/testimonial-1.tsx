@@ -35,36 +35,36 @@ export default function Testimonial1() {
 
   const stats: StatItem[] = [
     {
-      value: 3.62,
-      decimals: 2,
-      suffix: "/4.0",
-      label: "Current GPA",
-      href: "/resume",
-      cta: "View Resume",
+      value: 6,
+      decimals: 0,
+      suffix: "",
+      label: "Services Offered",
+      href: "/projects",
+      cta: "View Services",
     },
     {
-      value: 20,
+      value: 3,
       decimals: 0,
       suffix: "+",
-      label: "Projects Completed",
+      label: "Projects Delivered",
       href: "/projects",
-      cta: "View Projects",
+      cta: "See Our Work",
     },
     {
       value: 2,
       decimals: 0,
-      suffix: " Years",
-      label: "Professional Exp",
+      suffix: "",
+      label: "Industries Served",
       href: "/experience",
-      cta: "Explore Career",
+      cta: "Our Journey",
     },
     {
-      value: 34,
+      value: 24,
       decimals: 0,
-      suffix: "+",
-      label: "Tech & Tools",
-      href: "/skills",
-      cta: "See Skills",
+      suffix: "hr",
+      label: "Response Promise",
+      href: "/contact",
+      cta: "Contact Us",
     },
   ];
 
@@ -96,10 +96,10 @@ export default function Testimonial1() {
         {/* Main Heading with Refined Block Reveal Animation */}
         <div className="text-center max-w-5xl mx-auto relative text-neutral-900 dark:text-white px-4 space-y-1 md:space-y-2">
           {[
-            { text: "Data that speaks. AI that reasons.", color: "#6366f1", delay: 0 },
-            { text: "Software that ships.", color: "#10b981", delay: 0.15 },
-            { text: "Three disciplines, one engineer", color: "#f59e0b", delay: 0.3 },
-            { text: "and the numbers behind the work.", color: "#ef4444", delay: 0.45 }
+            { text: "Websites that sell. Bots that answer.", color: "#6366f1", delay: 0 },
+            { text: "Automation that saves.", color: "#10b981", delay: 0.15 },
+            { text: "One company, honest numbers", color: "#f59e0b", delay: 0.3 },
+            { text: "and the work behind the numbers.", color: "#ef4444", delay: 0.45 }
           ].map((line, i) => (
             <div key={i} className="relative block overflow-hidden py-1.5">
               <motion.h1
