@@ -429,6 +429,17 @@
         "statusOnline": "STATUS: ONLINE",
         "loadStable": "SYSTEM_LOAD: STABLE"
     },
+    "companyStats": {
+        "eyebrow": "By the Numbers",
+        "title": "Small team, serious output.",
+        "subtitle": "Every number below is real and current — updated as DIPC grows.",
+        "items": {
+            "services": "Services Offered",
+            "projects": "Client Projects Delivered",
+            "industries": "Industries Served",
+            "response": "Hour Response Promise"
+        }
+    },
     "projectHeader": {
         "title": "Architecting Digital Reality",
         "subtitle": "A curated showcase of practical business systems. Websites, chatbots and automations built for <span class='font-bold text-foreground'>real offices</span>, real customers and real results."

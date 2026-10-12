@@ -34,6 +34,7 @@ import ExpertiseSection from "@/components/sections/ExpertiseSection";
 import { HeroVisual } from "@/components/sections/HeroVisual";
 import StatsSection from "@/components/sections/StatsSection";
 import CTASection from "@/components/sections/CTASection";
+import { CompanyStats } from "@/components/sections/CompanyStats";
 import { usePreloadState } from "@/components/ui/arc-preloader-hero";
 
 
@@ -135,6 +136,7 @@ export default function HomePage() {
                 <DeferredMount>
                     <ExpertiseSection />
                     <AboutSection />
+                    <CompanyStats />
                     <MetricCTAHijack />
                     <SocialCorner className="fixed bottom-12 right-12 z-[30]" />
                 </DeferredMount>

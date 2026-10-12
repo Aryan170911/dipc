@@ -377,6 +377,17 @@
         "statusOnline": "स्थिति: ऑनलाइन",
         "loadStable": "सिस्टम लोड: स्थिर"
     },
+    "companyStats": {
+        "eyebrow": "आंकड़ों में",
+        "title": "छोटी टीम, पक्का काम।",
+        "subtitle": "नीचे हर आंकड़ा असली और ताज़ा है — DIPC के बढ़ने के साथ अपडेट होता है।",
+        "items": {
+            "services": "दी जाने वाली Services",
+            "projects": "पूरे किए गए Client Projects",
+            "industries": "सेवा प्राप्त Industries",
+            "response": "घंटे में जवाब का वादा"
+        }
+    },
     "projectHeader": {
         "title": "डिजिटल वास्तविकता की रचना",
         "subtitle": "व्यावहारिक business systems का curated प्रदर्शन। <span class='font-bold text-foreground'>असली offices</span>, असली customers और असली नतीजों के लिए बने websites, chatbots और automations।"
