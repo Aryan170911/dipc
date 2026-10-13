@@ -25,7 +25,7 @@ extend({ MeshLineGeometry, MeshLineMaterial });
 // Preload assets for faster startup
 useGLTF.preload('/lanyard/card.glb');
 useTexture.preload('/lanyard/lanyard.webp');
-useTexture.preload('/lanyard/card-face.webp');
+useTexture.preload('/lanyard/card-face-v2.webp');
 
 interface LanyardProps {
     position?: [number, number, number];
@@ -172,10 +172,14 @@ function Band({ maxSpeed = 50, minSpeed = 0, isMobile = false, isDark = false }:
 
     const { nodes, materials } = useGLTF('/lanyard/card.glb') as any;
     const texture = useTexture('/lanyard/lanyard.webp');
-    const customCardTexture = useTexture('/lanyard/card-face.webp');
+    const customCardTexture = useTexture('/lanyard/card-face-v2.webp');
 
     // The GLTF model requires flipY to be false for its UV mapping
     customCardTexture.flipY = false;
+    // Force full-frame sampling: repeat/offset can otherwise stick
+    // from a previously cached texture under HMR or CDN reuse.
+    customCardTexture.repeat.set(1, 1);
+    customCardTexture.offset.set(0, 0);
 
     // Use the custom card texture directly without color inversion,
     // so user photos don't look like negative films in light mode.
