@@ -11,8 +11,8 @@ import { useTranslations } from 'next-intl';
 
 const GALLERY_IMAGES = [
     '/project/mathrubhumi-hero.webp',
-    '/dipc-light.svg',
-    '/dipc-dark.svg',
+    '/dipc-logo.png',
+    '/dipc-logo.png',
 ];
 
 export const NavigationShortcuts = () => {

@@ -873,7 +873,7 @@ function ExperienceTimeline({ isLowPowerMode }: { isLowPowerMode: boolean }) {
             <div className="space-y-12">
                 {group.experiences.map((exp) => {
                     const logoSrc = exp.logo || "";
-                    const needsInvertInDarkMode = logoSrc.includes("dipc-light");
+                    const needsInvertInDarkMode = logoSrc.includes("dipc-logo");
 
                     const needsWhiteBgRemovalInDarkMode = false;
                     const needsInvertInLightMode = false;

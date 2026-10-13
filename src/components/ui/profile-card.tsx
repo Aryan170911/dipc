@@ -23,7 +23,7 @@ export function ProfileCard(props: ProfileCardProps) {
     name = "DIPC",
     title = "AI Solutions Company",
     description = "Digital India Promotion Company builds websites, AI chatbots and business automation for Indian enterprises and institutions.",
-    imageUrl = "/dipc-light.svg",
+    imageUrl = "/dipc-logo.png",
     githubUrl = "#",
     twitterUrl = "#",
     youtubeUrl = "#",

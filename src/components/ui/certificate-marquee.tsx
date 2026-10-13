@@ -7,16 +7,16 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 const certificates = [
-  "/dipc-light.svg",
+  "/dipc-logo.png",
   "/project/mathrubhumi-hero.webp",
-  "/dipc-dark.svg",
-  "/dipc-light.svg",
+  "/dipc-logo.png",
+  "/dipc-logo.png",
   "/project/mathrubhumi-hero.webp",
-  "/dipc-dark.svg",
-  "/dipc-light.svg",
+  "/dipc-logo.png",
+  "/dipc-logo.png",
   "/project/mathrubhumi-hero.webp",
-  "/dipc-dark.svg",
-  "/dipc-light.svg",
+  "/dipc-logo.png",
+  "/dipc-logo.png",
 ];
 
 function ScrambleButton({ href }: { href: string }) {

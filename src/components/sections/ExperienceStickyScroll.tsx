@@ -44,7 +44,7 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                         {/* Background Logo */}
                         <div className="absolute inset-0">
                             <Image
-                                src="/dipc-light.svg?v=1"
+                                src="/dipc-logo.png?v=1"
                                 alt="DIPC"
                                 fill
                                 className="object-cover opacity-20 dark:opacity-30 blur-[2px] scale-125 group-hover:scale-110 transition-transform duration-700"
@@ -106,7 +106,7 @@ export default function ExperienceStickyScroll({ isLowPowerMode = false }: { isL
                          {/* Background Logo */}
                          <div className="absolute inset-0">
                             <Image
-                                src="/dipc-light.svg?v=1"
+                                src="/dipc-logo.png?v=1"
                                 alt="DIPC"
                                 fill
                                 className="object-cover opacity-10 dark:opacity-15 blur-sm scale-125 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-700"

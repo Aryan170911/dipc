@@ -23,7 +23,7 @@ export const ParallaxScrollFeatureSection = () => {
             title: "Business Websites",
             subtitle: "WEB DEVELOPMENT",
             description: "Fast, mobile-first business sites with lead capture built in — from landing pages to complete online stores.",
-            imageUrl: '/dipc-light.svg',
+            imageUrl: '/dipc-logo.png',
             reverse: true,
             skills: ["Next.js", "Lead Forms", "SEO Basics", "Mobile-First", "Fast Loading", "Handover Training"]
         },
@@ -32,7 +32,7 @@ export const ParallaxScrollFeatureSection = () => {
             title: "Office Automation",
             subtitle: "AUTOMATION",
             description: "Follow-ups, reminders, data sync and reports running inside the tools teams already use.",
-            imageUrl: '/dipc-dark.svg',
+            imageUrl: '/dipc-logo.png',
             reverse: false,
             skills: ["Follow-ups", "Reminders", "Reports", "App Integrations", "Manual Override", "Care Plans"]
         }

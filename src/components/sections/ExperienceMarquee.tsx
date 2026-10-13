@@ -143,7 +143,7 @@ function ParallaxText({ children, baseVelocity = 100, isLowPowerMode = false }: 
 
 const GalleryItem = ({ logoSrc }: { logoSrc: string }) => {
     // Brand mark inverts in dark mode so it stays visible on both themes.
-    const needsInvertInDarkMode = logoSrc.includes("dipc-light");
+    const needsInvertInDarkMode = logoSrc.includes("dipc-logo");
 
     const needsWhiteBgRemovalInDarkMode = false;
 
@@ -172,18 +172,18 @@ const GalleryItem = ({ logoSrc }: { logoSrc: string }) => {
 export default function ExperienceMarquee() {
     const { isLowPowerMode } = usePerformance();
     const allLogos = [
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg",
-        "/dipc-light.svg"
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png",
+        "/dipc-logo.png"
     ];
 
     // Balance rows: 12 in row 1, 11 in row 2

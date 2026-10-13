@@ -39,7 +39,7 @@ const showcaseMembers = [
         role: exp.position.replace(' (Contract-Based)', ''),
         description: exp.description,
         period: "April 2026",
-        image: "/dipc-light.svg",
+        image: "/dipc-logo.png",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
     // 2. First client work
@@ -49,7 +49,7 @@ const showcaseMembers = [
         role: exp.position,
         description: exp.description,
         period: "May - Jul 2026",
-        image: "/dipc-light.svg",
+        image: "/dipc-logo.png",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
     // 3. AI services launch
@@ -59,7 +59,7 @@ const showcaseMembers = [
         role: exp.position.replace(' (Contract-Based)', ''),
         description: exp.description,
         period: "Aug - Sep 2026",
-        image: "/dipc-light.svg",
+        image: "/dipc-logo.png",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
     // 4. Flagship delivery
@@ -79,7 +79,7 @@ const showcaseMembers = [
         role: exp.position,
         description: exp.description,
         period: "2026 - Present",
-        image: "/dipc-light.svg",
+        image: "/dipc-logo.png",
         social: exp.externalLink ? { website: Array.isArray(exp.externalLink) ? exp.externalLink[0] : exp.externalLink } : undefined
     })),
     // 6. View more
@@ -94,8 +94,8 @@ const showcaseMembers = [
 
 const GALLERY_IMAGES = [
     "/project/mathrubhumi-hero.webp",
-    "/dipc-light.svg",
-    "/dipc-dark.svg"
+    "/dipc-logo.png",
+    "/dipc-logo.png"
 ];
 
 const AboutLeadInImageStack = () => {

@@ -27,8 +27,8 @@ export default function StatsSection({ scrollYProgress, showOnly }: { scrollYPro
     useEffect(() => {
         const galleryImages = [
             { src: '/project/mathrubhumi-hero.webp', alt: 'Mathrubhumi site' },
-            { src: '/dipc-light.svg', alt: 'DIPC' },
-            { src: '/dipc-dark.svg', alt: 'DIPC dark' },
+            { src: '/dipc-logo.png', alt: 'DIPC' },
+            { src: '/dipc-logo.png', alt: 'DIPC dark' },
         ];
         // Shuffle images randomly
         const shuffledImages = [...galleryImages].sort(() => 0.5 - Math.random());

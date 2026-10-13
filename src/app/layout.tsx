@@ -67,8 +67,7 @@ export const metadata: Metadata = {
     },
     icons: {
         icon: [
-            { url: '/dipc-light.svg', media: '(prefers-color-scheme: light)' },
-            { url: '/dipc-dark.svg', media: '(prefers-color-scheme: dark)' },
+            { url: '/dipc-logo.png' },
         ],
     },
 };

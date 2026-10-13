@@ -21,7 +21,7 @@ export const BlogBento = () => {
                     {/* Header Block - Left Side */}
                     <Block className="col-span-12 md:col-span-4">
                         <img
-                            src="/dipc-light.svg"
+                            src="/dipc-logo.png"
                             alt="DIPC"
                             className="mb-3 size-12 rounded-full bg-white p-1 dark:bg-zinc-900"
                         />

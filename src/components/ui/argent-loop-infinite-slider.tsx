@@ -17,7 +17,7 @@ interface ProjectData {
 const PROJECT_DATA: ProjectData[] = [
   {
     title: "Websites & Web Apps",
-    image: "/dipc-light.svg",
+    image: "/dipc-logo.png",
     category: "Web Development",
     year: "2026",
     description: "Fast, mobile-first business sites with lead capture built in.",

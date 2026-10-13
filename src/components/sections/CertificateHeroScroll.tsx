@@ -38,8 +38,8 @@ interface CertificateHeroScrollProps {
 
 const CERTIFICATE_POOL = [
     "/project/mathrubhumi-hero.webp",
-    "/dipc-light.svg",
-    "/dipc-dark.svg"
+    "/dipc-logo.png",
+    "/dipc-logo.png",
 ];
 
 const CertificateHeroScroll: FC<CertificateHeroScrollProps> = ({ onDownloadClick, isLowPowerMode: isLowPowerModeProp }) => {

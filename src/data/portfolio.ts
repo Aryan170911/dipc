@@ -6,7 +6,7 @@ export const portfolioData: PortfolioData = {
         title: 'AI Solutions Company',
         subtitle: 'DIPC • Websites, AI chatbots & business automation',
         bio: 'Digital India Promotion Company (DIPC) builds websites, AI chatbots and business automation for Indian enterprises and institutions. This site documents our services, projects and journey.',
-        avatar: '/dipc-light.svg',
+        avatar: '/dipc-logo.png',
         location: 'India',
         email: 'admin@dipc.site',
         phone: '+917091241322',
@@ -528,7 +528,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-03-20',
             category: 'applied-ai',
             tags: ['AI', 'Agents', 'Enterprise'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '5'
         },
         {
@@ -541,7 +541,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-03-15',
             category: 'applied-ai',
             tags: ['WhatsApp', 'Bots', 'Business'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '4'
         },
         {
@@ -554,7 +554,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-03-05',
             category: 'software-development',
             tags: ['Next.js', 'React', 'Performance'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '6'
         },
         {
@@ -567,7 +567,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-02-28',
             category: 'applied-ai',
             tags: ['Chatbots', 'AI', 'Trust'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '7'
         },
         {
@@ -580,7 +580,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-02-15',
             category: 'applied-ai',
             tags: ['LLM', 'Python', 'Ollama'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '8'
         },
         {
@@ -593,7 +593,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-02-01',
             category: 'software-development',
             tags: ['Automation', 'ROI', 'Business'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '5'
         },
         {
@@ -606,7 +606,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-01-25',
             category: 'software-development',
             tags: ['React', 'Zustand', 'Architecture'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '4'
         },
         {
@@ -619,7 +619,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-01-10',
             category: 'more',
             tags: ['Websites', 'Pricing', 'Business'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '6'
         },
         {
@@ -632,7 +632,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-01-05',
             category: 'software-development',
             tags: ['Leads', 'Forms', 'Business'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '7'
         },
         {
@@ -645,7 +645,7 @@ export const portfolioData: PortfolioData = {
             date: '2026-03-31',
             category: 'about-me',
             tags: ['Philosophy', 'Engineering', 'About DIPC'],
-            author: { name: 'DIPC Team', avatar: '/dipc-light.svg' },
+            author: { name: 'DIPC Team', avatar: '/dipc-logo.png' },
             readTime: '5'
         }
     ],
@@ -665,7 +665,7 @@ export const portfolioData: PortfolioData = {
             description: 'Company mark, light theme.',
             date: '2026-10-13',
             type: 'image',
-            url: '/dipc-light.svg',
+            url: '/dipc-logo.png',
             category: 'brand'
         },
         {
@@ -674,7 +674,7 @@ export const portfolioData: PortfolioData = {
             description: 'Company mark, dark theme.',
             date: '2026-10-13',
             type: 'image',
-            url: '/dipc-dark.svg',
+            url: '/dipc-logo.png',
             category: 'brand'
         }
     ],

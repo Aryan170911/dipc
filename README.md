@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/dipc-light.svg" alt="DIPC Logo" width="80" height="80" />
+<img src="public/dipc-logo.png" alt="DIPC Logo" width="80" height="80" />
 
 # DIPC — Digital India Promotion Company
 
@@ -116,7 +116,7 @@ All editable business content lives in three places — no other files need touc
 | Every English string on screen | `messages/en.json` (18 namespaces: `hero`, `about`, `ctaSection`, …) |
 | Every Hindi string on screen | `messages/id.json` (same shape as `en.json`; keep keys in sync) |
 | Homepage numbers band | `CompanyStats` `STATS` array in `src/components/sections/CompanyStats.tsx` |
-| Logo / project visuals | `public/dipc-light.svg`, `public/dipc-dark.svg`, `public/project/` |
+| Logo / project visuals | `public/dipc-logo.png`, `public/project/` |
 
 ---
 

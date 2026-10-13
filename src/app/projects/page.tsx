@@ -974,11 +974,11 @@ export default function ProjectsPage() {
     const products = useMemo(() => {
         const techImages = [
             "/project/mathrubhumi-hero.webp",
-            "/dipc-light.svg",
-            "/dipc-dark.svg",
+            "/dipc-logo.png",
+            "/dipc-logo.png",
             "/project/mathrubhumi-hero.webp",
-            "/dipc-light.svg",
-            "/dipc-dark.svg",
+            "/dipc-logo.png",
+            "/dipc-logo.png",
         ];
 
         const baseProducts = portfolioData.projects.map((p, i) => ({
