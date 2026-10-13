@@ -85,12 +85,16 @@ export const ProjectContact = ({ isLowPowerMode }: { isLowPowerMode?: boolean })
 
                 <div className="relative z-10 w-full lg:w-1/2 flex justify-center lg:justify-end h-[400px] md:h-[500px]">
                     <div className="relative w-full h-full overflow-hidden flex items-center justify-center [mask-image:radial-gradient(circle_at_center,black_40%,transparent_75%)] md:[mask-image:radial-gradient(ellipse_at_center,black_40%,transparent_70%)] translate-x-6 lg:translate-x-12">
+                        {!isLowPowerMode ? (
                         <div className="absolute inset-0 scale-[1.15] md:scale-110">
                             <InteractiveRobotSpline
                                 scene={ROBOT_SCENE_URL}
                                 className="w-full h-full"
                             />
                         </div>
+                        ) : (
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/10 to-transparent" />
+                        )}
                     </div>
                 </div>
             </div>

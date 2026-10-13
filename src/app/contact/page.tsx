@@ -357,12 +357,12 @@ export default function ContactPage() {
             >
 
                 {/* Header Section (Flows normally) */}
-                <div className="relative w-full pt-48 pb-20">
+                <div className="relative w-full pt-48 pb-20 overflow-hidden">
                     <div className="w-full flex items-center justify-center opacity-20 select-none pointer-events-none">
                         <DynamicScrollVelocity
                             texts={[t('hero.ticker.build'), t('hero.ticker.freelance')]}
                             velocity={20}
-                            className="text-7xl md:text-[9rem] font-black tracking-tight uppercase whitespace-nowrap"
+                            className="text-5xl md:text-[9rem] font-black tracking-tight uppercase whitespace-nowrap"
                             isLowPowerMode={isLowPowerMode}
                         />
                     </div>

@@ -209,7 +209,7 @@ export function Navbar() {
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="p-2 md:p-2.5 rounded-full bg-muted/80 hover:bg-muted transition-colors"
+                                className="p-3 md:p-2.5 rounded-full bg-muted/80 hover:bg-muted transition-colors"
                                 aria-label="Focus mode"
                             >
                                 <Link href="/" aria-label="Home">
@@ -221,7 +221,7 @@ export function Navbar() {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={toggleLocale}
-                                className="p-2 md:p-2.5 rounded-full bg-muted/80 hover:bg-muted transition-colors"
+                                className="p-3 md:p-2.5 rounded-full bg-muted/80 hover:bg-muted transition-colors"
                                 aria-label="Toggle language"
                             >
                                 <Globe className="w-4 h-4" />
@@ -235,7 +235,7 @@ export function Navbar() {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={toggleMenu}
-                                className="p-2 md:p-2.5 rounded-full bg-muted/80 hover:bg-muted transition-colors lg:hidden"
+                                className="p-3 md:p-2.5 rounded-full bg-muted/80 hover:bg-muted transition-colors lg:hidden"
                                 aria-label="Toggle menu"
                             >
                                 <AnimatePresence mode="wait" initial={false}>

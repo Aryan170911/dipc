@@ -76,7 +76,7 @@ export default function FeatureSection() {
         {/* Right side: Orbit animation cropped to 1/2 */}
         <div className="relative w-full md:w-[45%] h-[25rem] sm:h-[30rem] md:h-full md:min-h-[35rem] flex items-center justify-center md:justify-end overflow-hidden pointer-events-none mt-4 md:mt-0">
           {/* Positioning the center of orbits exactly on the right edge on desktop, centered bottom on mobile */}
-          <div className="absolute left-1/2 md:left-auto md:right-0 top-1/2 md:top-1/2 -translate-x-1/2 md:translate-x-1/2 -translate-y-1/2 w-[40rem] h-[40rem] md:w-[60rem] md:h-[60rem] flex items-center justify-center">
+          <div className="absolute left-1/2 md:left-auto md:right-0 top-1/2 md:top-1/2 -translate-x-1/2 md:translate-x-1/2 -translate-y-1/2 w-[24rem] h-[24rem] md:w-[60rem] md:h-[60rem] flex items-center justify-center">
             
             {/* Center Circle */}
             <div className="w-16 h-16 md:w-28 md:h-28 rounded-full bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-white/10 shadow-lg flex items-center justify-center z-10 relative">

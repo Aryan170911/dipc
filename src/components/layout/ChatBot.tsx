@@ -515,14 +515,14 @@ function ChatWindow({ onClose, origin }: { onClose: () => void, origin?: { x: nu
                     <div className="flex items-center gap-1">
                         <button
                             onClick={() => setIsExpanded(!isExpanded)}
-                            className="w-7 h-7 rounded-full flex items-center justify-center text-foreground/50 hover:text-foreground hover:bg-foreground/8 transition-colors"
+                            className="w-9 h-9 rounded-full flex items-center justify-center text-foreground/50 hover:text-foreground hover:bg-foreground/8 transition-colors"
                             aria-label={isExpanded ? "Collapse" : "Expand"}
                         >
                             {isExpanded ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}
                         </button>
                         <button
                             onClick={onClose}
-                            className="w-7 h-7 rounded-full flex items-center justify-center text-foreground/50 hover:text-foreground hover:bg-foreground/8 transition-colors"
+                            className="w-9 h-9 rounded-full flex items-center justify-center text-foreground/50 hover:text-foreground hover:bg-foreground/8 transition-colors"
                             aria-label={t("close")}
                         >
                             <X className="w-4 h-4" />
@@ -589,7 +589,7 @@ function ChatWindow({ onClose, origin }: { onClose: () => void, origin?: { x: nu
                             onClick={() => scrollToBottom()}
                             className={cn(
                                 "absolute right-3 bottom-20 z-10",
-                                "w-7 h-7 rounded-full flex items-center justify-center",
+                                "w-9 h-9 rounded-full flex items-center justify-center",
                                 "bg-background border border-foreground/15 shadow-md",
                                 "text-foreground/60 hover:text-foreground transition-colors"
                             )}

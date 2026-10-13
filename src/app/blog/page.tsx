@@ -145,7 +145,7 @@ function BlogContent() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8, type: "spring", stiffness: 400, damping: 20 }}
-                            className="text-4xl md:text-6xl lg:text-[5.5rem] font-black text-foreground leading-tight tracking-[-0.04em] uppercase whitespace-nowrap cursor-pointer group"
+                            className="text-2xl sm:text-4xl md:text-6xl lg:text-[5.5rem] font-black text-foreground leading-tight tracking-[-0.04em] uppercase whitespace-nowrap cursor-pointer group"
                         >
                             <span className="relative inline-block">
                                 <span>FEATURE &</span>{' '}

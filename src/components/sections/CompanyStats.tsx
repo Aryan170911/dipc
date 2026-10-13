@@ -43,12 +43,12 @@ export function CompanyStats() {
                 </motion.div>
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-border/50 border border-border/50 rounded-2xl overflow-hidden">
                     {STATS.map((s, i) => (
-                        <div key={s.labelKey} className="bg-background px-6 py-10 text-center">
-                            <div className="text-4xl md:text-5xl font-black tabular-nums tracking-tight">
+                        <div key={s.labelKey} className="bg-background px-3 py-8 md:px-6 md:py-10 text-center">
+                            <div className="text-3xl md:text-5xl font-black tabular-nums tracking-tight">
                                 <Counter value={s.value} duration={2} delay={i * 0.15} />
                                 {s.suffix ? <span className="text-primary">{s.suffix}</span> : null}
                             </div>
-                            <div className="mt-2 text-xs md:text-sm font-semibold uppercase tracking-widest text-muted-foreground">
+                            <div className="mt-2 text-[11px] md:text-sm font-semibold uppercase tracking-widest text-muted-foreground">
                                 {labels[s.labelKey]}
                             </div>
                         </div>

@@ -73,12 +73,13 @@
   html {
     scroll-behavior: smooth;
     position: relative;
+    overflow-x: clip;
   }
 
   body {
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   ::selection {
@@ -287,12 +288,12 @@
   }
 
   .heading-xl {
-    @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black tracking-tighter;
+    @apply text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-black tracking-tighter;
     line-height: 0.9;
   }
 
   .heading-lg {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight;
+    @apply text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight;
     line-height: 1;
   }
 
@@ -446,7 +447,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   /* Utility to hide elements when any modal is open */

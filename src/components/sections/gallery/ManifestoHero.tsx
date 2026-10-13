@@ -50,7 +50,7 @@ export default function ManifestoHero({ isLowPowerMode }: { isLowPowerMode?: boo
                                 initial={isLowPowerMode ? { opacity: 0 } : { y: 100, opacity: 0 }}
                                 animate={isLowPowerMode ? { opacity: 1 } : { y: 0, opacity: 1 }}
                                 transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-                                className="text-6xl md:text-9xl font-black tracking-tighter uppercase leading-[0.8] text-transparent bg-clip-text bg-gradient-to-br from-foreground/80 to-foreground/20 [-webkit-text-stroke:1px_rgba(0,0,0,0.1)] dark:[-webkit-text-stroke:1px_rgba(255,255,255,0.1)]"
+                                className="text-4xl md:text-9xl font-black tracking-tighter uppercase leading-[0.8] text-transparent bg-clip-text bg-gradient-to-br from-foreground/80 to-foreground/20 [-webkit-text-stroke:1px_rgba(0,0,0,0.1)] dark:[-webkit-text-stroke:1px_rgba(255,255,255,0.1)]"
                             >
                                 <span className="font-serif italic font-light opacity-80 text-foreground/60">The</span> Code
                             </motion.h1>
@@ -84,7 +84,7 @@ export default function ManifestoHero({ isLowPowerMode }: { isLowPowerMode?: boo
                                 initial={isLowPowerMode ? { opacity: 0 } : { y: -100, opacity: 0 }}
                                 animate={isLowPowerMode ? { opacity: 1 } : { y: 0, opacity: 1 }}
                                 transition={{ duration: 1, delay: isLowPowerMode ? 0 : 0.2, ease: [0.22, 1, 0.36, 1] }}
-                                className="text-6xl md:text-9xl font-black tracking-tighter uppercase leading-[0.8] text-transparent bg-clip-text bg-gradient-to-br from-foreground/80 to-foreground/20 [-webkit-text-stroke:1px_rgba(0,0,0,0.1)] dark:[-webkit-text-stroke:1px_rgba(255,255,255,0.1)]"
+                                className="text-4xl md:text-9xl font-black tracking-tighter uppercase leading-[0.8] text-transparent bg-clip-text bg-gradient-to-br from-foreground/80 to-foreground/20 [-webkit-text-stroke:1px_rgba(0,0,0,0.1)] dark:[-webkit-text-stroke:1px_rgba(255,255,255,0.1)]"
                             >
                                 Human <span className="font-serif italic font-light text-primary/80">Emotion.</span>
                             </motion.h1>

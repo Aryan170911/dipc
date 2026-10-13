@@ -96,7 +96,7 @@ export const MarqueeClosing = ({ isLowPowerMode: parentLowPowerMode }: { isLowPo
                     className="flex flex-col items-center gap-8 max-w-4xl mx-auto"
                 >
                     <h2 className={cn(
-                        "text-6xl md:text-8xl font-black tracking-tighter drop-shadow-2xl pb-4 leading-tight",
+                        "text-4xl md:text-8xl font-black tracking-tighter drop-shadow-2xl pb-4 leading-tight",
                         isDark ? "text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60" : "text-foreground"
                     )}>
                         Ready to Build?

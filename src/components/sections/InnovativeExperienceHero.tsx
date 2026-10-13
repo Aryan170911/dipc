@@ -90,7 +90,7 @@ export function InnovativeExperienceHero({ type, title, highlight, description }
                 </div>
 
                 {/* Right Orbital Column - Strictly Following Image 1 (Wide Ellipse) */}
-                <div className="relative w-full h-[300px] md:h-[450px] lg:h-[600px] flex items-center justify-center overflow-visible">
+                <div className="relative w-full h-[300px] md:h-[450px] lg:h-[600px] flex items-center justify-center overflow-x-clip">
                     {/* Responsive Container for Orbit */}
                     <div className="relative w-[1000px] h-[600px] scale-[0.3] sm:scale-[0.4] md:scale-[0.5] lg:scale-[0.65] xl:scale-[0.75] transition-transform duration-500 origin-center shrink-0 overflow-visible">
                         {/* SVG Orbital Paths (Tilted Ellipses) */}

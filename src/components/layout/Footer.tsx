@@ -336,7 +336,7 @@ export function Footer() {
                                     </div>
 
                                     {/* Main Grid - Forced 4-column layout regardless of zoom/screen */}
-                                    <div className="w-full grid grid-cols-4 gap-x-[5vw] gap-y-[4vh]">
+                                    <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-x-[5vw] gap-y-[4vh]">
                                         <FooterColumn title={t('links')}>
                                             <FooterLink href="/">{tNav('home')}</FooterLink>
                                             <FooterLink href="/resume">{tNav('resume')}</FooterLink>
@@ -357,7 +357,7 @@ export function Footer() {
                                                             initial={{ opacity: 0, x: 5 }}
                                                             animate={{ opacity: 1, x: 0 }}
                                                             exit={{ opacity: 0, x: 5 }}
-                                                            className="absolute left-full ml-[clamp(8px,1vw,16px)] whitespace-nowrap flex items-center gap-[clamp(4px,0.5vw,8px)] z-50"
+                                                            className="absolute left-full ml-[clamp(8px,1vw,16px)] whitespace-nowrap hidden sm:flex items-center gap-[clamp(4px,0.5vw,8px)] z-50"
                                                         >
                                                             <span className="text-[clamp(12px,1.1vw,18px)] font-medium text-zinc-400 dark:text-zinc-500 select-all">
                                                                 {portfolioData.personal.email}
@@ -367,7 +367,7 @@ export function Footer() {
                                                                     e.preventDefault();
                                                                     handleCopyEmail();
                                                                 }}
-                                                                className="text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors"
+                                                                className="text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors p-2 -m-2"
                                                                 title="Copy Email"
                                                             >
                                                                 {copied ? <Check className="w-[clamp(14px,1vw,20px)] h-[clamp(14px,1vw,20px)] text-green-500" /> : <Copy className="w-[clamp(14px,1vw,20px)] h-[clamp(14px,1vw,20px)]" />}
@@ -382,16 +382,16 @@ export function Footer() {
                                         </FooterColumn>
 
                                         <FooterColumn title={t('localTime')}>
-                                            <p className="text-zinc-900 dark:text-white text-[1.2vw] min-text-[14px] font-medium tracking-tight">
+                                            <p className="text-zinc-900 dark:text-white text-sm font-medium tracking-tight">
                                                 {localTime}
                                             </p>
-                                            <p className="text-zinc-900 dark:text-white text-[1.2vw] min-text-[14px] font-medium tracking-tight">
+                                            <p className="text-zinc-900 dark:text-white text-sm font-medium tracking-tight">
                                                 India
                                             </p>
                                         </FooterColumn>
 
                                         <FooterColumn title={t('version')}>
-                                            <p className="text-zinc-900 dark:text-white text-[1.2vw] min-text-[14px] font-medium tracking-tight">
+                                            <p className="text-zinc-900 dark:text-white text-sm font-medium tracking-tight">
                                                 {t('versionEdition')}
                                             </p>
                                         </FooterColumn>

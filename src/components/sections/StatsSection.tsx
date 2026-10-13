@@ -154,7 +154,7 @@ export default function StatsSection({ scrollYProgress, showOnly }: { scrollYPro
                         </div>
 
                         <div className="overflow-visible w-full lg:max-w-[1400px] mx-auto px-4 md:px-12">
-                            <div className="flex gap-8 md:gap-24 justify-center pt-12 pb-32 min-h-[600px] items-start relative">
+                            <div className="flex gap-6 md:gap-24 justify-start md:justify-center pt-12 pb-32 min-h-[600px] items-start relative overflow-x-auto snap-x px-4">
                                 <AnimatePresence mode="popLayout" initial={false}>
                                     {getVisibleBlogs().map((blog, index) => (
                                         <motion.div
@@ -168,7 +168,7 @@ export default function StatsSection({ scrollYProgress, showOnly }: { scrollYPro
                                                 stiffness: 260,
                                                 damping: 26,
                                             }}
-                                            className="group relative w-[200px] md:w-[260px] flex-shrink-0"
+                                            className="group relative w-[200px] md:w-[260px] flex-shrink-0 snap-center"
                                         >
                                             <Link href={`/blog/${blog.slug}`} className="block relative z-10 group/book">
                                                 {/* Glow Effect - Inside Link for better hover detection */}

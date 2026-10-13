@@ -294,7 +294,7 @@ const NavItem = React.memo(({ label, active, onClick, count, isCollapsed }: { la
                                 exit={{ opacity: 0, width: 0 }}
                                 transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                                 className={cn(
-                                    "text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight whitespace-nowrap overflow-hidden block",
+                                    "text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight block",
                                     active ? "text-foreground" : "text-muted-foreground/60 group-hover:text-muted-foreground/80 dark:text-muted-foreground/40 dark:group-hover:text-muted-foreground/60"
                                 )}
                             >
@@ -446,13 +446,13 @@ const AchievementModal = React.forwardRef<HTMLDivElement, {
                         <div className="flex items-center gap-1">
                             <button
                                 onClick={(e) => { e.stopPropagation(); onPrev?.(); }}
-                                className="p-1 px-2 rounded-md hover:bg-foreground/10 text-muted-foreground hover:text-foreground transition-all active:scale-90"
+                                className="px-3 py-2 rounded-md hover:bg-foreground/10 text-muted-foreground hover:text-foreground transition-all active:scale-90"
                             >
                                 <ChevronLeft className="w-4 h-4" />
                             </button>
                             <button
                                 onClick={(e) => { e.stopPropagation(); onNext?.(); }}
-                                className="p-1 px-2 rounded-md hover:bg-foreground/10 text-muted-foreground hover:text-foreground transition-all active:scale-90"
+                                className="px-3 py-2 rounded-md hover:bg-foreground/10 text-muted-foreground hover:text-foreground transition-all active:scale-90"
                             >
                                 <ChevronRight className="w-4 h-4" />
                             </button>
