@@ -313,8 +313,10 @@ export default function ContactPage() {
         };
     };
 
-    const row1Real = ['linkedin', 'github', 'instagram'].map(getSocialItem);
-    const row2Real = ['twitter', 'discord', 'spotify'].map(getSocialItem);
+    // Only platforms with a real URL + username — placeholders stay hidden.
+    const realSocials = ['linkedin', 'github', 'instagram', 'twitter', 'discord', 'spotify']
+        .map(getSocialItem)
+        .filter(s => s.url && s.url !== '#' && s.username && s.username !== '@user');
 
     const containerRef = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
@@ -399,18 +401,21 @@ export default function ContactPage() {
                         {/* RIGHT COLUMN: Content Stack */}
                         <div className="col-span-1 lg:col-span-8 flex flex-col gap-16 relative z-10 pt-10 lg:pt-0">
 
-                            {/* Social Connect */}
-                            <motion.div
-                                className="w-full"
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                            >
-                                <div className="flex flex-col gap-1">
-                                    <SocialTicker items={row1Real} direction="right" speed={50} isLowPowerMode={isLowPowerMode} />
-                                    <SocialTicker items={row2Real} direction="left" speed={50} isLowPowerMode={isLowPowerMode} />
-                                </div>
-                            </motion.div>
+                            {/* Social Connect — real profiles only, no placeholders */}
+                            {realSocials.length > 0 && (
+                                <motion.div
+                                    className="w-full"
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                >
+                                    <div className="flex flex-wrap gap-4">
+                                        {realSocials.map((item) => (
+                                            <SocialCard key={item.name} item={item} />
+                                        ))}
+                                    </div>
+                                </motion.div>
+                            )}
 
                             {/* Contact Form */}
                             <motion.div
