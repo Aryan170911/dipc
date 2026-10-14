@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { portfolioData } from '@/data/portfolio';
+import { buildDentistPrompt } from '@/data/dentist-demo';
 
 // ─── Build system prompt from portfolio data ─────────────────────────────────
 function buildSystemPrompt(locale: string = 'en'): string {
@@ -92,6 +93,7 @@ interface Message {
 interface ChatRequest {
     messages: Message[];
     locale?: string;
+    persona?: string;
 }
 
 // ─── Groq API call ───────────────────────────────────────────────────────────
@@ -195,7 +197,9 @@ export async function POST(req: NextRequest) {
 
         // Limit to last 20 messages to avoid token overflow
         const messages = body.messages.slice(-20);
-        const systemPrompt = buildSystemPrompt(body.locale);
+        const systemPrompt = body.persona === 'dentist-demo'
+            ? buildDentistPrompt(body.locale)
+            : buildSystemPrompt(body.locale);
 
         let reply: string;
         let provider: string;
